@@ -1,8 +1,6 @@
 # LeetCode JS 版本
 
-在这里记录我的 LeetCode 解法。语言是用的 JavaScript。
-
-要说什么目的的话，也说不上来。经历校招后，我自己算法这一块确实有点薄弱。准备再好好练一下 LeetCode，纯粹地记录与分享。
+这篇文章记录我练习的 LeetCode 题目，语言 JavaScript。
 
 
 
@@ -10,6 +8,7 @@
 
 |              题目              |                             源码                             |                        公众号原文解析                        | 难度 |
 | :----------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
+|         110 平衡二叉树         | [Balanced Binary Tree](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/BalancedBinaryTree.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484372&idx=1&sn=7470e6a6e318a1ff762a9b371e826bea&chksm=e8f875cddf8ffcdb896874fbabaa3003a4de766c4514896820caa8cea408a572f448d07cf90f&token=1901844631&lang=zh_CN#rd) | Easy |
 | 108 将有序数组转换为二叉搜索树 | [Convert Sorted Array to Binary Search Tree](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/CovertSortedArrayToBinarySearchTree.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&tempkey=OTg2X1RUcXJ3VFV6WTlya1JZUDRLdkowSkdhNUxYNmNNeE1ZUENrRFJEaXJhVkxmVm9ucUVBUVkzaFJvcThPUkptSnRZSHktVFRWQjhXdkZldlJsd2hfaTlyQnNOZHFXdGF1cU03MnV3NEU2QnNyN3N4b3ZOUk03cDMyZUhjanBLVUxONkhmTURyQTlXME5UZkE5bmV2REhpUW1rRVZvTlBxWlIzUzI1ZEF%2Bfg%3D%3D&chksm=68f875bb5f8ffcad3e406362a87bea11d768097fab6e6a34af693822ed3435c26c0fc087665a#rd) | Easy |
 |    107 二叉树的层次遍历 II     | [Binary Tree Level Order Traversal II](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/BinaryTreeLevelOrderTraversalII.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484321&idx=2&sn=ca8bfce266ee9abc61964099af0a7d54&chksm=e8f875b8df8ffcae7802c36dce710f7d7f73d80787715611f609828cde2b9beb1ad437a95fe1&token=1762161651&lang=zh_CN#rd) | Easy |
 |      104 二叉树的最大深度      | [Maximum Depth of Binary Tree](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/MaximumDepthOfBinaryTree.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484287&idx=1&sn=019e9ecc6164ab2d8f5a3def131faa4c&chksm=e8f87566df8ffc70a9ab867261cbc0716799a6fcba15846dc64b186a9730975e315a12c2a5ce&token=1762161651&lang=zh_CN#rd) | Easy |
@@ -24,7 +23,6 @@
 |     058 最后一个单词的长度     | [Length of Last Word](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/LengthOfLastWorld.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484183&idx=2&sn=3036c5699fe36f138e4a4724ace0d46c&chksm=e8f8750edf8ffc1814c45441a2b8d5dcff12bb63db466f1a67658d5fc4072a5aa675b112ed7a&token=1608834102&lang=zh_CN#rd) | Easy |
 |         053 最大子序和         | [Maximum Subarray](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/MaximumSubarray.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484173&idx=2&sn=50f5f63f2fc8e8d3c795ece4d0e38559&chksm=e8f87514df8ffc026d7961289df1cb63d0195b9432ec4198d47877550d7f8e18584e42426c1b&token=1608834102&lang=zh_CN#rd) | Easy |
 |            038 报数            | [Count and say](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/CountAndSay.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484158&idx=1&sn=f4889537ce3b199be2476c6b5297b8ba&chksm=e8f874e7df8ffdf18985ba650179d40ab4d1f559e6b9c19dab4d8f0d5554c1f5018b7c58a143&token=1608834102&lang=zh_CN#rd) | Easy |
-|        035 搜索插入位置        | [Search Insert Position](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/SearchInsertPosition.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484145&idx=1&sn=7d444246caeb05d163369e552d95c4da&chksm=e8f874e8df8ffdfefafc084fd3bc165cac37a050e5a3a46d1842622f99243db64a89f7f6a25c&token=1608834102&lang=zh_CN#rd) | Easy |
 
 
 
@@ -32,10 +30,8 @@
 
 ## 关于
 
-这是我的公众号 cameraee，该项目中关于题目的分析思路首先发布在公众号。
+这是我的公众号 **cameraee**，LeetCode 题目的分析思路首先发布在公众号。
 
-另外，公众号记录着我的前端博客，没事儿也分享一些电影、书籍。
-
-![](https://raw.githubusercontent.com/swpuLeo/leetcode.js/master/img/qrcode_for_gh_35d7e6e13278_258.jpg?token=AVympldGKUQ66uT-ycwBZqKVD9v3QkqPks5cBM2cwA%3D%3D)
+![](https://raw.githubusercontent.com/swpuLeo/leetcode.js/master/img/my_qrcode.jpg)
 
 欢迎一起交流学习。
