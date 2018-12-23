@@ -54,7 +54,6 @@ var rotate = function(nums, k) {
     let tail = nums.pop();
     nums.unshift(tail);
   }
-  return nums;
 };
 
 var rotate = function(nums, k) {
@@ -62,7 +61,6 @@ var rotate = function(nums, k) {
   for (let i = 0; i < k; i++) {
     nums.splice(0, 0, nums.splice(nums.length - 1, 1));
   }
-  return nums;
 };
 
 /**
