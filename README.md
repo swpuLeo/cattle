@@ -2,12 +2,15 @@
 
 这篇文章记录我练习的 LeetCode 题目，语言 JavaScript。
 
+我的刷题顺序是根据题目难度由简到难，现在已更新 45 个题目。
+
 
 
 **最近题目**
 
 |              题目              |                             源码                             |                        公众号原文解析                        | 难度 |
 | :----------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
+|        191 位 1 的个数         | [Number of 1 Bits](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/NumberOf1Bits.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484564&idx=1&sn=0f266a94e4c5833ff7a5fdc8a83a01f3&chksm=e8f8728ddf8ffb9b843780b5b700f7a9a9d72f774a233fd929d6c7e950a97529b2071016600d&token=1587411699&lang=zh_CN#rd) | Easy |
 |        190 颠倒二进制位        | [Reverse Bits](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/ReverseBits.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484562&idx=1&sn=aa0f5b995cfc784f45e64d2cb9902413&chksm=e8f8728bdf8ffb9d7dfeeea92f24289e1ed4a58981610fc1488e2debc1df90c4a8848bd8e909&token=1250783820&lang=zh_CN#rd) | Easy |
 |          189 旋转数组          | [Rotate Array](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/RotateArray.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484555&idx=1&sn=b1c1ddf85b0a6e70d8a7849d237b5301&chksm=e8f87292df8ffb84d33e6e4987f2341919b655ba388d300a03d455f73b06243d206d4d1949af&token=1884318210&lang=zh_CN#rd) | Easy |
 |         172 阶乘后的零         | [Factorial Trailing Zeors](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/FactorialTrailingZeros.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484553&idx=2&sn=98f0fd9c79ae980d23630d1cc36a0728&chksm=e8f87290df8ffb8680d89d43e4e5d06a20acca051bf4fd72f66d3ddb0c39fac46201b49a7ada&token=1884318210&lang=zh_CN#rd) | Easy |
@@ -23,7 +26,6 @@
 |   122 买卖股票的最佳时机 II    | [Best Time to Buy and Sell Stock II](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/BestTimeToBuyAndSellStockII.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484453&idx=2&sn=1b3203a033a51535abc4eaaab7e5db8c&chksm=e8f8723cdf8ffb2ad62c43d92b31f6fa7613623ebf9928ae27ca41f30f21b16e7ad34e166315&token=291615209&lang=zh_CN#rd) | Easy |
 |     121 买卖股票的最佳时机     | [Best Time to Buy and Sell Stock](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/BestTimeToBuyAndSellStock.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484434&idx=2&sn=0b89dcd680f44b90654e4129c644d109&chksm=e8f8720bdf8ffb1d4834685eea4c6ae4bc7a8a9982cf38b678f03708883383eb1c28c73ff4f2&token=1485351607&lang=zh_CN#rd) | Easy |
 |        119 杨辉三角 II         | [Pascals Triangle II](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/PascalsTriangleII.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484421&idx=1&sn=af7fb9d383b849af0dbbac32ce5bc8c3&chksm=e8f8721cdf8ffb0aecdd77afe057c2ad4ba27079fd5dca4532d4494dc211bc6e8cebf4e4a2ca&token=1485351607&lang=zh_CN#rd) | Easy |
-|          118 杨辉三角          | [Pascals Triangle](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/PascalsTriangle.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484412&idx=1&sn=db2ec30fc23dde1de6b784bad563fdbb&chksm=e8f875e5df8ffcf30cafaf8f4856db85ec427507cc53d528b276690bd9842438fed1a18efb4b&token=1485351607&lang=zh_CN#rd) | Easy |
 
 
 
