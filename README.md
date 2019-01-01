@@ -2,7 +2,7 @@
 
 这篇文章记录我练习的 LeetCode 题目，语言 JavaScript。
 
-我的刷题顺序是根据题目难度由简到难，现在已更新 45 个题目。
+我的刷题顺序是根据题目难度由简到难，现在已更新 50 个题目。
 
 
 
@@ -10,6 +10,11 @@
 
 |              题目              |                             源码                             |                        公众号原文解析                        | 难度 |
 | :----------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
+|         205 同构字符串         | [Isomorphic Strings](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/IsomorphicStrings.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484592&idx=1&sn=20fc14ece48404e36261b08d3d65f43a&chksm=e8f872a9df8ffbbfc688607e9ff2b7c62d3669803423258e7be81728f85e7a70e47159904624&token=887577516&lang=zh_CN#rd) | Easy |
+|          204 计数质数          | [Count Primes](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/CountPrimes.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484586&idx=2&sn=c62e5c6fb9025784089ff8ba8cc18a9e&chksm=e8f872b3df8ffba555592eb6d98eb58c80cbabd8e23f744fbde0aec45d80a2eec3f3ecf9a7e3&token=887577516&lang=zh_CN#rd) | Easy |
+|        203 移出链表元素        | [Remove Linked List Elements](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/RemoveLinkedListElements.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484586&idx=1&sn=e0b16ded4bc58b1662aee3c7ddefeb8f&chksm=e8f872b3df8ffba556d832da51f83f46b8027077b7754350314ead9413b77e14a90bdaa448f9&token=887577516&lang=zh_CN#rd) | Easy |
+|           202 快乐数           | [Happy Number](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/HappyNumber.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484583&idx=2&sn=b3b04a809545d7ddc2fe9831d0c97142&chksm=e8f872bedf8ffba86d76d2f9b639b185b3958f19581e10ec5a31045b0fc9b46b1326c1b7a305&token=887577516&lang=zh_CN#rd) | Easy |
+|          198 打家劫舍          | [House Robber](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/HouseRobber.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484573&idx=1&sn=7e5f4e880669f67b456e5a505227a9f6&chksm=e8f87284df8ffb92241724eba99adf2cd6a81de293efc6ea48107f0e3b2e1390dc0373c994c0&token=887577516&lang=zh_CN#rd) | Easy |
 |        191 位 1 的个数         | [Number of 1 Bits](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/NumberOf1Bits.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484564&idx=1&sn=0f266a94e4c5833ff7a5fdc8a83a01f3&chksm=e8f8728ddf8ffb9b843780b5b700f7a9a9d72f774a233fd929d6c7e950a97529b2071016600d&token=1587411699&lang=zh_CN#rd) | Easy |
 |        190 颠倒二进制位        | [Reverse Bits](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/ReverseBits.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484562&idx=1&sn=aa0f5b995cfc784f45e64d2cb9902413&chksm=e8f8728bdf8ffb9d7dfeeea92f24289e1ed4a58981610fc1488e2debc1df90c4a8848bd8e909&token=1250783820&lang=zh_CN#rd) | Easy |
 |          189 旋转数组          | [Rotate Array](https://github.com/swpuLeo/leetcode.js/blob/master/src/easy/RotateArray.js) | [↗](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247484555&idx=1&sn=b1c1ddf85b0a6e70d8a7849d237b5301&chksm=e8f87292df8ffb84d33e6e4987f2341919b655ba388d300a03d455f73b06243d206d4d1949af&token=1884318210&lang=zh_CN#rd) | Easy |
