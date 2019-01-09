@@ -1,11 +1,16 @@
-var twoSum = function(nums, target) {
-  var diffMap = {};
-  for (var i = 0; i < nums.length; i++) {
-    var cur = nums[i];
-    var diff = target - cur;
-    if (diffMap[diff] !== undefined) {
-      return [diffMap[diff], i];
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+const twoSum = function(nums, target) {
+  const map = new Map();
+  for (let i = 0; i < nums.length; i++) {
+    const cur = nums[i];
+    const diff = target - cur;
+    if (map.get(diff) !== undefined) {
+      return [map.get(diff), i];
     }
-    diffMap[cur] = i;
+    map.set(cur, i);
   }
 };
