@@ -22,9 +22,3 @@ NumArray.prototype.sumRange = function(i, j) {
  * var obj = Object.create(NumArray).createNew(nums)
  * var param_1 = obj.sumRange(i,j)
  */
-
-NumArray.prototype.sumRange = function(i, j) {
-  for (let index = i; index <= j; i++) {
-    // ...
-  }
-};
