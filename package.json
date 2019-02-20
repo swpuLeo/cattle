@@ -1,0 +1,32 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "accomplish leetcode using js",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "vuepress": "^0.14.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swpuLeo/leetcode.js.git"
+  },
+  "keywords": [
+    "leetcode",
+    "JavaScript"
+  ],
+  "author": "swpu.leo@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swpuLeo/leetcode.js/issues"
+  },
+  "homepage": "https://github.com/swpuLeo/leetcode.js#readme"
+}
