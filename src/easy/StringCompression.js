@@ -1,21 +1,23 @@
+/**
+ * @param {character[]} chars
+ * @return {number}
+ */
 var compress = function(chars) {
-  let left = 0, right = 0;
-  let count = 0;
-  const res = [];
-  while (right < chars.length) {
-    if (chars[left] !== chars[right]) {
-      res.push(chars[left], count + '');
-      left = right;
-      count = 1;
-    } else {
-      count += 1;
+  let count = 0, p = 0;
+  for (let i = 0; i < chars.length; i++) {
+    count += 1;
+    chars[p] = chars[i];
+    if (i === chars.length - 1 || chars[i + 1] !== chars[p]) {
+      if (count <= 1) p += 1;
+      else {
+        chars[p++] = chars[i];
+        const scount = (count + '').split('');
+        for (let j = 0; j < scount.length; j++) {
+          chars[p++] = scount[j];
+        }
+      }
+      count = 0;
     }
-    if (right === chars.length - 1) {
-      res.push(chars[left], count + '');
-    }
-    right += 1;
   }
-  return res;
+  return p;
 };
-
-console.log(compress(['a','b','a','b','b','c','c','c','d','e']))
