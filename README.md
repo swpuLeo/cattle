@@ -10,4 +10,4 @@
 
 这是我的微信公众号：
 
-![](https://blogw3fun-1253290453.cos.ap-chengdu.myqcloud.com/meta/qrcode_v3_sm.jpg)
+![](https://github.com/swpuLeo/cattle/blob/master/img/qrcode_v3_sm.jpg)
