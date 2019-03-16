@@ -52,13 +52,10 @@ var maximumProduct = function(nums) {
       }
     }
   }
-  if (thirdPos < 0) {
-    return maxNag * secNag * maxPos;
+  if (secNag < 0) {
+    const p1 = maxNag * secNag;
+    const p2 = secPos * thirdPos;
+    return (p1 > p2 ? p1 : p2) * maxPos;
   }
-  if (secNag > 0) {
-    return maxPos * secPos * thirdPos;
-  }
-  const max1 = maxNag * secNag * maxPos;
-  const max2 = maxPos * secPos * thirdPos;
-  return max1 > max2 ? max1 : max2;
+  return maxPos * secPos * thirdPos;
 };
