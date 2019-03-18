@@ -55,67 +55,56 @@ var imageSmoother = function (M) {
  * @param {number[][]} M
  * @return {number[][]}
  */
-var imageSmoother = function(M) {
+var imageSmoother = function (M) {
+  // 将二维矩阵降维
   const arr = M.reduce((prev, next) => [...prev, ...next], []);
-  const res = [];
-  const tmp = [];
+  const res = []; // 结果矩阵，二维
+  const tmp = []; // 灰度数组，一维
+  const r = M.length;
+  const c = M[0].length;
   for (let i = 0; i < arr.length; i++) {
-    const row = Math.floor(i / M[0].length);
-    const col = i % M[0].length;
-    
-    let count = 0;
-    let cur = M[row][col];
-    count += 1;
-    
-    let topLeft = 0;
-    if (M[row - 1] !== undefined && M[row - 1][col - 1] !== undefined) {
-      topLeft = M[row - 1][col - 1];
+    const row = Math.floor(i / c);
+    const col = i % c;
+    let sum = M[row][col];
+    let count = 1;
+    if (row - 1 >= 0) {
+      sum += M[row - 1][col];
+      count += 1;
+      if (col - 1 >= 0) {
+        sum += M[row - 1][col - 1];
+        count += 1;
+      }
+      if (col + 1 < c) {
+        sum += M[row - 1][col + 1];
+        count += 1;
+      }
+    }
+    if (row + 1 < r) {
+      sum += M[row + 1][col];
+      count += 1;
+      if (col - 1 >= 0) {
+        sum += M[row + 1][col - 1];
+        count += 1;
+      }
+      if (col + 1 < c) {
+        sum += M[row + 1][col + 1];
+        count += 1;
+      }
+    }
+    if (col - 1 >= 0) {
+      sum += M[row][col - 1];
       count += 1;
     }
-    let top = 0;
-    if (M[row - 1] !== undefined && M[row - 1][col] !== undefined) {
-      top = M[row - 1][col];
+    if (col + 1 < c) {
+      sum += M[row][col + 1];
       count += 1;
     }
-    let topRight = 0;
-    if (M[row - 1] !== undefined && M[row - 1][col + 1] !== undefined) {
-      topRight = M[row - 1][col + 1];
-      count += 1;
-    }
-    let left = 0;
-    if (M[row] !== undefined && M[row][col - 1] !== undefined) {
-      left = M[row][col - 1];
-      count += 1;
-    }
-    let right = 0;
-    if (M[row] !== undefined && M[row][col + 1] !== undefined) {
-      right = M[row][col + 1];
-      count += 1;
-    }
-    let bottomLeft = 0;
-    if (M[row + 1] !== undefined && M[row + 1][col - 1] !== undefined) {
-      bottomLeft = M[row + 1][col - 1];
-      count += 1;
-    }
-    let bottom = 0;
-    if (M[row + 1] !== undefined && M[row + 1][col] !== undefined) {
-      bottom = M[row + 1][col];
-      count += 1;
-    }
-    let bottomRight = 0;
-    if (M[row + 1] !== undefined && M[row + 1][col + 1] !== undefined) {
-      bottomRight = M[row + 1][col + 1];
-      count += 1;
-    }
-    
-    const average = Math.floor((topLeft + top + topRight + left + cur + right + bottomLeft + bottom + bottomRight) / count);
+    const average = Math.floor(sum / count);
     tmp.push(average);
   }
-  const c = M[0].length;
+  // 将一维数组转为二维
   for (let i = 0; i < Math.floor(tmp.length / c); i++) {
     res.push(tmp.slice(i * c, (i + 1) * c));
   }
   return res;
 };
-
-console.log(imageSmoother([[1,1,1],[1,0,1],[1,1,1]]))
