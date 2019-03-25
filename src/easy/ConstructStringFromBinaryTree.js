@@ -11,7 +11,7 @@
  */
 var tree2str = function(t) {
   if (!t) return '';
-  if (!t.left && t.right) return t.val.toString();
+  if (!t.left && !t.right) return t.val.toString();
   const left = '(' + tree2str(t.left) + ')';
   const right = tree2str(t.right);
   return t.val.toString() + left + (right === '' ? '' : '(' + right + ')');
