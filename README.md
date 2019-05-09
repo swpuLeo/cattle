@@ -1,6 +1,8 @@
 # Cattle | LeetCode-JavaScript 刷题历程
 
 
+:new: 网页版 [https://cattle.w3fun.com](https://cattle.w3fun.com)
+
 
 > 在奥地利与意大利之间，阿尔卑斯山有一段叫 Semmering，十分的陡峭，十分的高。他们在上面建了铁路来连接维也纳和威尼斯。这段铁路是在还没有火车之前就建好的。他们修建了它是因为他们知道有一天火车会来。
 
@@ -25,12 +27,6 @@
   - 网站增加数据结构与算法的内容总结
 - 阶段 III（未开始）
   - 计划中 ... ...
-
----
-
-本项目基于 [vuepress](https://vuepress.vuejs.org/zh/) 搭建。本站 LOGO 来自 [IconFont](https://www.iconfont.cn/user/detail?spm=a313x.7781069.0.d214f71f6&uid=4730398)
-
-**版权声明** 本站所有文章除特别声明外，均采用 [署名-非商业性使用-禁止演绎 4.0 国际（CC BY-NC-ND 4.0）](https://creativecommons.org/licenses/by-nc-nd/4.0/) 许可协议。转载请注明出处。
 
 
 这是我的微信公众号 W3Fun
