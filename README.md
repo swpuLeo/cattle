@@ -33,6 +33,6 @@
 **版权声明** 本站所有文章除特别声明外，均采用 [署名-非商业性使用-禁止演绎 4.0 国际（CC BY-NC-ND 4.0）](https://creativecommons.org/licenses/by-nc-nd/4.0/) 许可协议。转载请注明出处。
 
 
-我的微信公众号 W3Fun
+这是我的微信公众号 W3Fun
 
-![公众号 W3Fun](https://blogw3fun-1253290453.cos.ap-chengdu.myqcloud.com/meta/qrcode_v3_sm.jpg)
+![](https://github.com/swpuLeo/cattle/blob/master/img/qrcode_v3_sm.jpg)
