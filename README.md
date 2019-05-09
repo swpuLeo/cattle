@@ -2,14 +2,37 @@
 
 
 
-> 在奥地利和意大利之间，阿尔卑斯山有一段叫 Semmering，十分的陡峭，十分的高。他们在上面建了铁路来连接维也纳和威尼斯。这些铁路是在还没有火车之前就建好的。他们修建了它是因为他们知道有一天火车会来。
+> 在奥地利与意大利之间，阿尔卑斯山有一段叫 Semmering，十分的陡峭，十分的高。他们在上面建了铁路来连接维也纳和威尼斯。这段铁路是在还没有火车之前就建好的。他们修建了它是因为他们知道有一天火车会来。
 
-:train: :cow:
+:train: :train: :train: :cow: :cow: :cow: :runner: :runner: :runner:
 
-从 18 年 11 月 11 起，我开始了 [每日一练 LeetCode](https://blog.w3fun.com/zh/daily-plan-for-leetcode/) 的计划。
+这个项目预计花费三年时间来完善主体部分。
 
-我从 LeetCode 简单题目开始，每天安排固定的时间完成一个题目。我会参考整理网上优秀的解题思路，并自己实现。然后，将思路整理发布在微信公众号上，源码放在 [Github](https://github.com/swpuLeo/cattle)。
+2018 年 11 月 11 日起，我开始刷 LeetCode。
 
-这是我的微信公众号，每天更新一个 LeetCode：
+为什么要刷 LeetCode？因为我相信 `有一天火车会来` 。
 
-![](https://github.com/swpuLeo/cattle/blob/master/img/qrcode_v3_sm.jpg)
+这个计划的内容包括：
+
+- 阶段 I（已完成）
+  - 每天刷一个 LeetCode，从简单类型开始，然后将思路发布到微信公众号
+  - 预计刷题 150 个
+- 阶段 II（进行中）
+  - 将解题思路整理为文档，使用静态博客生成工具发布，维护并完善
+  - 每周安排 7 - 10 个**同类型**题目，周一计划，周五复盘
+  - 微信公众号和网站同步更新
+  - 预计刷题 250 个
+  - 网站增加数据结构与算法的内容总结
+- 阶段 III（未开始）
+  - 计划中 ... ...
+
+---
+
+本项目基于 [vuepress](https://vuepress.vuejs.org/zh/) 搭建。本站 LOGO 来自 [IconFont](https://www.iconfont.cn/user/detail?spm=a313x.7781069.0.d214f71f6&uid=4730398)
+
+**版权声明** 本站所有文章除特别声明外，均采用 [署名-非商业性使用-禁止演绎 4.0 国际（CC BY-NC-ND 4.0）](https://creativecommons.org/licenses/by-nc-nd/4.0/) 许可协议。转载请注明出处。
+
+
+我的微信公众号 W3Fun
+
+![公众号 W3Fun](https://blogw3fun-1253290453.cos.ap-chengdu.myqcloud.com/meta/qrcode_v3_sm.jpg)
