@@ -9,11 +9,9 @@
 
 ## LeetCode 相关题目
 
+:bulb: **简单题**
 
-
-下面显示已收录的 LeetCode 题目：
-
-- [100 相同的树](/solution/easy/100SameTree.html)
+- [100 相同的树](/solution/easy/100-same-tree.html)
 - 101 对称二叉树
 - 104 二叉树的最大深度
 - 107 二叉树的层次遍历 II
@@ -25,8 +23,11 @@
 - 235 二叉搜索树的最近公共祖先
 - 257 二叉树的所有路径
 - 404 左子叶之和
-- 427 建立四叉树
-- 437 路径总和 III
+- [427 建立四叉树](/solution/easy/427-construct-quad-tree.html)
+- [429 N 叉树的层序遍历](/solution/easy/429-n-ary-tree-level-order-traversal.html)
+- [437 路径总和 III](/solution/easy/437-path-sum-iii.html)
+- [501 二叉搜索树中的众数](/solution/easy/501-find-mode-in-binary-search-tree.html)
+- [538 把二叉搜索树转换为累加树](/solution/easy/538-converse-bst-to-greater-tree.html)
 
 
 

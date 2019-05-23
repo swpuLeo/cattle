@@ -1,5 +1,5 @@
 {
-  "name": "leetcode",
+  "name": "cattle",
   "version": "1.0.0",
   "description": "accomplish leetcode using js",
   "main": "index.js",
@@ -7,9 +7,12 @@
     "doc": "docs"
   },
   "dependencies": {
-    "vuepress": "^0.14.8"
+    "vuepress": "^0.14.9"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
+    "gh-pages": "^2.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
@@ -17,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/swpuLeo/leetcode.js.git"
+    "url": "git+https://github.com/swpuLeo/cattle.git"
   },
   "keywords": [
     "leetcode",
@@ -26,7 +29,7 @@
   "author": "swpu.leo@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/swpuLeo/leetcode.js/issues"
+    "url": "https://github.com/swpuLeo/cattle/issues"
   },
-  "homepage": "https://github.com/swpuLeo/leetcode.js#readme"
+  "homepage": "https://github.com/swpuLeo/cattle#readme"
 }
