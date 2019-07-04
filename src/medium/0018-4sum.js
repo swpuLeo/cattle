@@ -6,17 +6,13 @@
 var fourSum = function(nums, target) {
   if (!nums.length) return [];
   const res = [];
-  // 先进行排序
   nums.sort((a, b) => a - b);
   for (let i = 0; i < nums.length; i++) {
     if (i > 0 && nums[i] === nums[i - 1]) continue;
-    // 四数转为三数
     const tmpTarget = target - nums[i];
     for (let j = i + 1; j < nums.length; j++) {
       if (j > i + 1 && nums[j] === nums[j - 1]) continue;
-      // 三数转为两数
       const tmpTarget2 = tmpTarget - nums[j];
-      // 双指针
       let m = j + 1;
       let n = nums.length - 1;
       while (m < n) {

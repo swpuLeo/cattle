@@ -3,7 +3,7 @@
  * @return {number}
  */
 var maxArea = function(height) {
-  if (height.length <= 1) return 0;
+  if (height.length <= 1) return -1;
   let i = 0;
   let j = height.length - 1;
   let area = 0;
@@ -15,7 +15,6 @@ var maxArea = function(height) {
   }
   return area;
 };
-
 
 /**
  * @param {number[]} height
