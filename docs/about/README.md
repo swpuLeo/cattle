@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # 关于 Cattle
 
 ![cattle logo](https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/meta/cattle-128.png)
@@ -12,7 +8,7 @@ sidebar: auto
 
 :train: :train: :train: :cow: :cow: :cow: :runner: :runner: :runner:
 
-这个项目预计花费三年时间来完善主体部分。
+Cattle 这个项目预计花费三年时间来完善主体部分。
 
 2018 年 11 月 11 日起，我开始刷 LeetCode。
 
@@ -25,37 +21,32 @@ sidebar: auto
   - 预计刷题 150 个
 - 阶段 II（进行中）
   - 将解题思路整理为文档，使用静态博客生成工具发布，维护并完善
-  - 每周安排 7 - 10 个**同类型**题目，周一计划，周五复盘
-  - 微信公众号和网站同步更新
+  - 每周安排 7 - 10 个**同类型**题目
   - 预计刷题 250 个
   - 网站增加数据结构与算法的内容总结
+  - 对 JavaScript 内置类型进行深入学习
+  - 微信公众号和网站同步更新
 - 阶段 III（未开始）
   - 计划中 ... ...
 
 ---
 
-本项目基于 [vuepress](https://vuepress.vuejs.org/zh/) 搭建。本站 LOGO 来自 [IconFont](https://www.iconfont.cn/user/detail?spm=a313x.7781069.0.d214f71f6&uid=4730398)
+本项目基于 [vuepress](https://vuepress.vuejs.org/zh/) 搭建。本站 LOGO 来自 [IconFont](https://www.iconfont.cn/user/detail?spm=a313x.7781069.0.d214f71f6&uid=4730398)。
+
+本站所有题目来自于 [LeetCode](https://leetcode-cn.com/)。
 
 **版权声明** 本站所有文章除特别声明外，均采用 [署名-非商业性使用-禁止演绎 4.0 国际（CC BY-NC-ND 4.0）](https://creativecommons.org/licenses/by-nc-nd/4.0/) 许可协议。转载请注明出处。
 
 
 
-## 作者 Leo
+## 作者
 
-- 应届前端仔
-
-- JavaScript（ES / TS）
-
-- 正在学习数据结构与算法
-
-<!-- - 我的博客 [W3Fun - Blog](https://blog.w3fun.com) -->
-
-- 我的 [Github](https://github.com/swpuleo) | [Segment Fault](https://segmentfault.com/u/swpuleo)
+[Leo](https://github.com/swpuLeo)
 
 
 
-## 关注我
+## W3Fun
 
-我的微信公众号 W3Fun
+欢迎关注微信公众号 W3Fun
 
   ![公众号 W3Fun](https://blogw3fun-1253290453.cos.ap-chengdu.myqcloud.com/meta/qrcode_v3_sm.jpg)
