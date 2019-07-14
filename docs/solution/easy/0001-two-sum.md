@@ -1,4 +1,4 @@
-# 001 两数之和
+# 0001 两数之和
 
 
 
@@ -10,7 +10,7 @@
 
 来源：[LeetCode](https://leetcode.com/problems/two-sum/)  [力扣](https://leetcode-cn.com/problems/two-sum/)
 
-源码：[JS 版本](https://github.com/swpuLeo/leetcode/blob/master/src/easy/TwoSum.js)  [C++ 版本](https://github.com/swpuLeo/leetcode/blob/master/src/easy/TwoSum.cpp)  [Python 版本](https://github.com/swpuLeo/leetcode/blob/master/src/easy/TwoSum.py)
+源码：[JS 版本](https://github.com/swpuLeo/leetcode/blob/master/src/easy/0001-two-sum.js)  [C++ 版本](https://github.com/swpuLeo/leetcode/blob/master/src/easy/0001-two-sum.cpp)  [Python 版本](https://github.com/swpuLeo/leetcode/blob/master/src/easy/0001-two-sum.py)
 
 
 
@@ -32,6 +32,15 @@
 所以返回 [0, 1]
 ```
 
+
+::: tip 声明 题目来源
+来源：力扣（LeetCode）
+
+链接：https://leetcode-cn.com/problems/two-sum
+:::
+
+
+## 解题思路
 
 
 :star: **暴力求解**

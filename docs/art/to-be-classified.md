@@ -3,6 +3,6 @@
 
 ## LeetCode 相关题目
 
-:bulb: **简单题**
+### 简单题
 
-- [463 岛屿的周长](/solution/easy/463-island-perimeter.html)
+- [0463 岛屿的周长](/solution/easy/0463-island-perimeter.html)

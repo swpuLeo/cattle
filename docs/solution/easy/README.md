@@ -1,10 +1,6 @@
----
-sidebar: auto
----
-
 # 简单题索引
 
-按照 LeetCode 题目序号排序，正在更新 :smile:
+<!-- 按照 LeetCode 题目序号排序，正在更新 :smile:
 
 - [122 买卖股票的最佳时机 II](/solution/easy/122-best-time-to-buy-and-sell-stock-ii.html)
 - [415 字符串相加](/solution/easy/415-add-strings.html)
@@ -26,4 +22,17 @@ sidebar: auto
 - [860 柠檬水找零](/solution/easy/860-lemonade-change.html)
 - [874 模拟机器人行走](/solution/easy/874-walking-robot-simulation.html)
 - [944 删列造序](/solution/easy/944-delete-columns-to-make-sorted.html)
-- [984 不含 AAA 或 BBB 的字符串](/solution/easy/984-string-without-aaa-or-bbb.html)
+- [984 不含 AAA 或 BBB 的字符串](/solution/easy/984-string-without-aaa-or-bbb.html) -->
+
+
+
+LeetCode 简单题索引：
+
+- 侧边栏有所有题目的链接
+- 支持搜索（导航栏中的搜索框）
+
+
+
+## 简单题精选
+
+敬请期待 ...

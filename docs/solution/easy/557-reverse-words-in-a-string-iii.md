@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # 557 反转字符串中的单词 III
 
 ::: tip 关于题目
@@ -26,7 +22,7 @@ sidebar: auto
 
 ```
 输入: "Let's take LeetCode contest"
-输出: "s'teL ekat edoCteeL tsetnoc" 
+输出: "s'teL ekat edoCteeL tsetnoc"
 ```
 
 

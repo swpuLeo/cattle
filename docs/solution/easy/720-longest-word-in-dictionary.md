@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # 720 词典中最长的单词
 
 ::: tip 关于题目
@@ -27,20 +23,20 @@ sidebar: auto
 **示例 1:**
 
 ```
-输入: 
+输入:
 words = ["w","wo","wor","worl", "world"]
 输出: "world"
-解释: 
+解释:
 单词"world"可由"w", "wo", "wor", 和 "worl"添加一个字母组成。
 ```
 
 **示例 2:**
 
 ```
-输入: 
+输入:
 words = ["a", "banana", "app", "appl", "ap", "apply", "apple"]
 输出: "apple"
-解释: 
+解释:
 "apply"和"apple"都能由词典中的单词组成。但是"apple"得字典序小于"apply"。
 ```
 

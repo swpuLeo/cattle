@@ -1,8 +1,3 @@
----
-sidebar: auto
-
----
-
 # 028 实现 strStr()
 
 ::: tip 关于题目

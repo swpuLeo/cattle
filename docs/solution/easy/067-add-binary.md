@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # 067 二进制求和
 
 ::: tip 关于题目
@@ -45,7 +41,7 @@ sidebar: auto
 思路一：
 
 ```js
-    
+
 /**
  * @param {string} a
  * @param {string} b

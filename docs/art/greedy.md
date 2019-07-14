@@ -7,41 +7,41 @@
 
 ### 简单题
 
-- [122 买卖股票的最佳时机 II](/solution/easy/122-best-time-to-buy-and-sell-stock-ii.html)
-- [455 分发饼干](/solution/easy/455-assign-cookies.html)
-- [860 柠檬水找零](/solution/easy/860-lemonade-change.html)
-- [874 模拟机器人行走](/solution/easy/874-walking-robot-simulation.html)
-- [944 删列造序](/solution/easy/944-delete-columns-to-make-sorted.html)
+- [0122 买卖股票的最佳时机 II](/solution/easy/122-best-time-to-buy-and-sell-stock-ii.html)
+- [0455 分发饼干](/solution/easy/455-assign-cookies.html)
+- [0860 柠檬水找零](/solution/easy/860-lemonade-change.html)
+- [0874 模拟机器人行走](/solution/easy/874-walking-robot-simulation.html)
+- [0944 删列造序](/solution/easy/944-delete-columns-to-make-sorted.html)
 
 
 
 ### 中等题
 
-- 55 跳跃游戏
-- 134 加油站
-- 376 摆动序列
-- 392 判断子序列
-- 402 移掉K位数字
-- 406 根据身高重建队列
-- 435 无重叠区间
-- 452 用最少数量的箭引爆气球
-- 621 任务调度器
-- 649 Dota2 参议院
-- 659 分割数组为连续子序列
-- 714 买卖股票的最佳时机含手续费
-- 738 单调递增的数字
-- 763 划分字母区间
-- 767 重构字符串
-- 842 将数组拆分成斐波那契序列
-- 861 翻转矩阵后的得分
-- 870 优势洗牌
-- 881 救生艇
-- 910 最小差值 II
-- 921 使括号有效的最少添加
-- 948 令牌放置
-- 955 删列造序 II
-- 984 不含 AAA 或 BBB 的字符串
-- 991 坏了的计算器
+- 0055 跳跃游戏
+- 0134 加油站
+- 0376 摆动序列
+- 0392 判断子序列
+- 0402 移掉K位数字
+- 0406 根据身高重建队列
+- 0435 无重叠区间
+- 0452 用最少数量的箭引爆气球
+- 0621 任务调度器
+- 0649 Dota2 参议院
+- 0659 分割数组为连续子序列
+- 0714 买卖股票的最佳时机含手续费
+- 0738 单调递增的数字
+- 0763 划分字母区间
+- 0767 重构字符串
+- 0842 将数组拆分成斐波那契序列
+- 0861 翻转矩阵后的得分
+- 0870 优势洗牌
+- 0881 救生艇
+- 0910 最小差值 II
+- 0921 使括号有效的最少添加
+- 0948 令牌放置
+- 0955 删列造序 II
+- 0984 不含 AAA 或 BBB 的字符串
+- 0991 坏了的计算器
 - 1007 行相等的最少多米诺旋转
 - 1053 交换一次的先前排列
 - 1090 受标签影响的最大值

@@ -1,7 +1,3 @@
----
-sidebar: auto
----
-
 # 437 路径总和 III
 
 ::: tip 关于题目
