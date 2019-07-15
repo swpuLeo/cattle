@@ -8,6 +8,89 @@
 
 ## JavaScript 中的数组
 
+### 数组去重[^1][^2]
+思路一：`for` 循环
+
+```js
+const unique = arr => {
+  for (let i = 0; i < arr.length - 1; i++) {
+    for (let j = i + 1; i < arr.length; j++) {
+      if (arr[i] === arr[j]) {
+        arr.splice(j, 1);
+        j -= 1;
+        arr.length -= 1;
+      }
+    }
+  }
+}
+```
+
+
+
+思路二：`for ... of` + `includes`
+
+```js
+const unique = arr => {
+  const res = []
+  for (const item of arr) !res.includes(item) && res.push(item)
+  return res
+}
+```
+
+
+
+
+思路三：`filter` + `indexOf`
+
+```js
+const unique = arr => {
+  return arr.filter((item, index) => {
+    return arr.indexOf(item) === index
+  })
+}
+```
+
+
+
+
+思路四：`sort`
+
+```js
+const unique = arr => {
+  arr.sort()
+  const res = [arr[0]]
+  for (let i = 1, len = arr.length; i < len; i++) {
+    arr[i] !== arr[i - 1] && res.push(arr[i])
+  }
+  return res
+}
+```
+
+
+
+思路五：`Set`
+
+```js
+const unique = arr => [...new Set(arr)]
+```
+
+
+
+思路六：`for ... of` + `Object`
+
+```js
+const unique = arr => {
+  const res = []
+  const obj = {}
+  for (const item of arr) {
+    if (!obj[item]) {
+      res.push(item)
+      obj[item] = true
+    }
+  }
+  return res
+}
+```
 
 
 
@@ -162,3 +245,11 @@
 - 1040 移动石子直到连续 II
 - 1052 爱生气的书店老板
 - 1053 交换一次的先前排列
+
+
+
+## 参考链接
+
+[^1]: https://www.cnblogs.com/wisewrong/p/9642264.html
+[^2]: https://www.cnblogs.com/wisewrong/p/9642264.html
+
