@@ -94,6 +94,67 @@ const unique = arr => {
 
 
 
+### 数组扁平化
+
+核心：迭代数组，如果数组项是数组，那么递归，否则与之前的结果合并。
+
+
+
+思路一：`toString` + `split`
+
+```js
+const flatten = arr => arr.toString().split(',').map(item => Number(item))
+```
+
+
+
+思路二：`join` + `split`
+
+```js
+const flatten = arr => arr.join().split(',').map(item => parseInt(item))
+```
+
+
+
+思路三：递归
+
+```js
+const flatten = arr => {
+  const res = []
+  arr.map(item => {
+    Array.isArray(item) ? res = res.concat(flatten(item)) : res.push(item)
+  })
+  return res
+}
+```
+
+
+
+思路四：`reduce`
+
+```js
+const flatten = arr => {
+  return arr.reduce((res, item) => {
+    return res.concat(Array.isArray(item) ? flatten(item) : item)
+  }, [])
+}
+```
+
+
+
+思路五：扩展运算符
+
+```js
+const flatten = arr => {
+  while (arr.some(item => Array.isArray(item))) {
+    arr = [].concat(...arr)
+  }
+  return arr
+}
+```
+
+
+
 
 
 ## LeetCode
