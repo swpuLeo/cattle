@@ -124,7 +124,12 @@ module.exports = {
     editLinks: true,
     editLinkText: '帮助本站改善此页面！'
   },
-  plugins: ['@vuepress/register-components'],
+  plugins: [
+    '@vuepress/register-components',
+    {
+      componentsDir: './components'
+    }
+  ],
   markdown: {
     config: md => {
       md.set({ linkify: true })
