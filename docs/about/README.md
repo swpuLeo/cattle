@@ -1,4 +1,6 @@
-# 数据结构与算法基础
+# Cattle
+
+> 数据结构 + 算法 + LeetCode（JavaScript & C++ & Python）
 
 
 :new: 网页版 [https://cattle.w3fun.com](https://cattle.w3fun.com)
@@ -32,4 +34,4 @@
 
 这是我的微信公众号 W3Fun
 
-![](https://github.com/swpuLeo/cattle/blob/master/img/qrcode_v3_sm.jpg)
+![](https://blogw3fun-1253290453.cos.ap-chengdu.myqcloud.com/meta/qrcode_v3_sm.jpg)
