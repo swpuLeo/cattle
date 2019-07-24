@@ -39,3 +39,25 @@
 这是我的微信公众号 W3Fun
 
 ![](https://blogw3fun-1253290453.cos.ap-chengdu.myqcloud.com/meta/qrcode_v3_sm.jpg)
+
+
+
+## 声明
+
+本项目基于 [vuepress](https://vuepress.vuejs.org/zh/) 搭建。
+
+本站 LOGO 来自 [IconFont](https://www.iconfont.cn/user/detail?spm=a313x.7781069.0.d214f71f6&uid=4730398)。
+
+本站所有题目来自于 [LeetCode](https://leetcode-cn.com/)。
+
+
+
+::: tip 版权声明
+
+本站所有文章除特别声明外，均采用 [署名-非商业性使用-禁止演绎 4.0 国际（CC BY-NC-ND 4.0）](https://creativecommons.org/licenses/by-nc-nd/4.0/) 许可协议。
+
+转载请注明出处：
+
+[https://cattle.w3fun.com](https://cattle.w3fun.com/)
+
+:::
