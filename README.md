@@ -1,4 +1,6 @@
-# Cattle | LeetCode-JavaScript 刷题历程
+# Cattle
+
+> 数据结构 + 算法 + LeetCode（JavaScript & C++ & Python）
 
 
 :new: 网页版 [https://cattle.w3fun.com](https://cattle.w3fun.com)
@@ -14,17 +16,18 @@
 
 为什么要刷 LeetCode？因为我相信 `有一天火车会来` 。
 
+2019 年 7 月，项目增加 C++ 题解，感谢 [vailing](https://github.com/vailing) 的参与。
+
 这个计划的内容包括：
 
 - 阶段 I（已完成）
   - 每天刷一个 LeetCode，从简单类型开始，然后将思路发布到微信公众号
   - 预计刷题 150 个
 - 阶段 II（进行中）
-  - 将解题思路整理为文档，使用静态博客生成工具发布，维护并完善
-  - 每周安排 7 - 10 个**同类型**题目
-  - 微信公众号和网站同步更新
-  - 预计刷题 250 个
-  - 网站增加数据结构与算法的内容总结
+  - 使用 vuepress 构建网站
+  - 增加对数据结构与算法基础知识的理解
+  - 整理 LeetCode 精选题解
+  - 增加 C++ & Python 题解
 - 阶段 III（未开始）
   - 计划中 ... ...
 

@@ -27,7 +27,7 @@ weekChildren.unshift('')
 module.exports = {
   base: '/',
   title: 'Cattle',
-  description: '使用 JavaScript 刷 LeetCode 的历程',
+  description: '数据结构 | 算法 | LeetCode',
   head: [
     ['link', { rel: 'icon', href: 'https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/meta/cattle-16.png' }]
   ],
@@ -124,7 +124,12 @@ module.exports = {
     editLinks: true,
     editLinkText: '帮助本站改善此页面！'
   },
-  plugins: ['@vuepress/register-components'],
+  plugins: [
+    '@vuepress/register-components',
+    {
+      componentsDir: './components'
+    }
+  ],
   markdown: {
     config: md => {
       md.set({ linkify: true })
