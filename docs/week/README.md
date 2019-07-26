@@ -6,7 +6,7 @@
 
 :airplane: 目录导航
 
-7 月： [第 5 周](/week/5.html) | [第 6 周](/week/6.html)
+7 月： [第 5 周](/week/5.html) | [第 6 周](/week/6.html) | [第 7 周](/week/7.html) | [第 8 周](/week/8.html)
 
 
 
