@@ -1,10 +1,9 @@
 # Cattle
 
-> 数据结构 + 算法 + LeetCode（JavaScript & C++ & Python）
-
 
 :new: 网页版 [https://cattle.w3fun.com](https://cattle.w3fun.com)
 
+> 数据结构 + 算法 + LeetCode（JavaScript & C++ & Python）
 
 > 在奥地利与意大利之间，阿尔卑斯山有一段叫 Semmering，十分的陡峭，十分的高。他们在上面建了铁路来连接维也纳和威尼斯。这段铁路是在还没有火车之前就建好的。他们修建了它是因为他们知道有一天火车会来。
 
