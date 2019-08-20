@@ -46,7 +46,7 @@ export default {
         verify: true,
         path,
         visitor: true,
-        avator: 'monsterid',
+        avatar: 'monsterid',
         placeholder: '说点什么吧'
       })
     }
