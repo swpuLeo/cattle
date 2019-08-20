@@ -141,11 +141,6 @@ export default {
       if (to.path !== from.path && !Vue.component(to.name)) {
         nprogress.start()
       }
-      if (!['/', '/about/'].includes(to.path)) {
-        this.isShowValine = true
-      } else {
-        this.isShowValine = false
-      }
       next()
     })
 
@@ -155,6 +150,16 @@ export default {
     })
 
     this.$on('sw-updated', this.onSWUpdated)
+  },
+
+  beforeRouteEnter (to, from, next) {
+    next(vm => {
+      if (!['/', '/about/'].includes(to.path)) {
+        vm.isShowValine = true
+      } else {
+        vm.isShowValine = false
+      }
+    })
   },
 
   methods: {

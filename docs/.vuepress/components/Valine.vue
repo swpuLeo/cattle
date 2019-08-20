@@ -46,8 +46,8 @@ export default {
         verify: true,
         path,
         visitor: true,
-        avator: 'monster',
-        placeholder: '雁过留痕'
+        avator: 'monsterid',
+        placeholder: '说点什么吧'
       })
     }
   }
