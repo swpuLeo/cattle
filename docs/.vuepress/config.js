@@ -122,7 +122,13 @@ module.exports = {
     docs: 'gh-pages',
     docsDir: 'docs',
     editLinks: true,
-    editLinkText: '帮助本站改善此页面！'
+    editLinkText: '帮助本站改善此页面！',
+    serviceWorker: {
+      updatePopup: {
+        message: '网站内容更新啦',
+        buttonText: '立即刷新'
+      }
+    }
   },
   plugins: [
     '@vuepress/register-components',
