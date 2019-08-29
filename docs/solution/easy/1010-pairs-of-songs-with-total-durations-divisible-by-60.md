@@ -1,6 +1,6 @@
 # 1010 总持续时间可被 60 整除的歌曲
 
-::: tip 关于题目
+## 题目导航
 
 难度：[简单](/solution/easy/)
 
@@ -8,9 +8,8 @@
 
 来源：[LeetCode](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)  [力扣](https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)
 
-源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/PairsOfSongsWithTotalDurationsDivisibleBy60.js)
+源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/1002-pairs-of-songs-with-total-durations-divisible-by-60.js)
 
-:::
 
 
 
@@ -47,6 +46,13 @@
 
 1. `1 <= time.length <= 60000`
 2. `1 <= time[i] <= 500`
+
+
+::: tip 声明 题目来源
+来源：力扣（LeetCode）
+
+链接：https://leetcode-cn.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/
+:::
 
 
 

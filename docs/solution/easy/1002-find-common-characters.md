@@ -1,6 +1,7 @@
 # 1002 查找常用字符
 
-::: tip 关于题目
+
+## 题目导航
 
 难度：[简单](/solution/easy/)
 
@@ -8,9 +9,8 @@
 
 来源：[LeetCode](https://leetcode.com/problems/find-common-characters/)  [力扣](https://leetcode-cn.com/problems/find-common-characters/)
 
-源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/FindCommonCharacters.js)
+源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/1002-find-common-characters.js)
 
-:::
 
 
 
@@ -43,6 +43,12 @@
 1. `1 <= A.length <= 100`
 2. `1 <= A[i].length <= 100`
 3. `A[i][j]` 是小写字母
+
+::: tip 声明 题目来源
+来源：力扣（LeetCode）
+
+链接：https://leetcode-cn.com/problems/find-common-characters/
+:::
 
 
 

@@ -1,6 +1,6 @@
 # 1013 将数组分成和相等的三个部分
 
-::: tip 关于题目
+## 题目导航
 
 难度：[简单](/solution/easy/)
 
@@ -8,9 +8,7 @@
 
 来源：[LeetCode](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)  [力扣](https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/)
 
-源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/PartitionArrayIntoThreePartsWithEqualSum.js)
-
-:::
+源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/1013-partition-array-into-three-parts-with-equal-sum.js)
 
 
 
@@ -51,6 +49,13 @@
 
 1. `3 <= A.length <= 50000`
 2. `-10000 <= A[i] <= 10000`
+
+
+::: tip 声明 题目来源
+来源：力扣（LeetCode）
+
+链接：https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/
+:::
 
 
 
