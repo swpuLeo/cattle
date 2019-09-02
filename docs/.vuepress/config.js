@@ -27,7 +27,7 @@ weekChildren.unshift('')
 module.exports = {
   base: '/',
   title: 'Cattle',
-  description: '数据结构 | 算法 | LeetCode',
+  description: 'JavaScript 数据结构与算法',
   head: [
     ['link', { rel: 'icon', href: 'https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/meta/cattle-16.png' }]
   ],
