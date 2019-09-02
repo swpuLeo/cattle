@@ -8,12 +8,14 @@
         :lg="8"
         v-for="(item, index) in week"
         :key="index"
-        style="margin-bottom: 40px">
+        :style="cardStyles">
+        <!-- 指定最大高度用于修复布局混乱的 bug -->
         <a-badge :count="index === 0 ? 'new' : ''">
           <a-card
             :title="`LeetCode 第 ${item} 周`"
             hoverable
-            @click="gotoDetail(item)">
+            @click="gotoDetail(item)"
+            style="overflow: hidden">
             <img
               :alt="`week-${item}`"
               :src="`https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/week/cover/${item}.jpeg`"
@@ -39,7 +41,12 @@ export default {
   name: 'WeekList',
   data () {
     return {
-      week: genArray(5, 5 + diff).reverse()
+      week: genArray(5, 5 + diff).reverse(),
+      height: 0,
+      cardStyles: {
+        margin: '40px 0',
+        maxHeight: '160px' // 240 270
+      }
     }
   },
   methods: {
