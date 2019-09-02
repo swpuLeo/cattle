@@ -1,17 +1,20 @@
 # Cattle
 
 
-![Cattle logo](https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/meta/cattle-128.png)
+<div style="text-align: center">
+<img src="https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/meta/cattle-128.png" alt="Cattle logo">
+</div>
 
 
-> 数据结构 + 算法 + LeetCode（JavaScript & C++ & Python）
+:::tip Cattle
+:train: :cow: :runner: **（前端向）数据结构 + 算法 + LeetCode**
 
+主要使用 JavaScript，另外支持 C++ & Python。
 
-> 在奥地利与意大利之间，阿尔卑斯山有一段叫 Semmering，十分的陡峭，十分的高。他们在上面建了铁路来连接维也纳和威尼斯。这段铁路是在还没有火车之前就建好的。他们修建了它是因为他们知道有一天火车会来。
+:book: **一段故事**
 
-:train: :train: :train: :cow: :cow: :cow: :runner: :runner: :runner:
-
-这个项目预计花费三年时间来完善。
+在奥地利与意大利之间，阿尔卑斯山有一段叫 Semmering，十分的陡峭，十分的高。他们在上面建了铁路来连接维也纳和威尼斯。这段铁路是在还没有火车之前就建好的。他们修建了它是因为他们知道有一天火车会来。
+:::
 
 
 
@@ -57,10 +60,16 @@
 
 
 
+## W3Fun
 
-这是我的微信公众号 W3Fun
 
-![](https://blogw3fun-1253290453.cos.ap-chengdu.myqcloud.com/meta/qrcode_v3_sm.jpg)
+<div style="text-align: center; margin-top: 20px;">
+<img src="https://blogw3fun-1253290453.cos.ap-chengdu.myqcloud.com/meta/qrcode_v3_sm.jpg" alt="微信公众号 W3Fun">
+</div>
+
+<p style="text-align: center">扫描二维码，关注微信公众号 W3Fun</p>
+
+:airplane: 欢迎访问 W3Fun 主站：https://w3fun.com
 
 
 

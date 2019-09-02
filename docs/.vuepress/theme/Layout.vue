@@ -70,6 +70,10 @@ import SWUpdatePopup from '../../../node_modules/vuepress/lib/default-theme/SWUp
 import { resolveSidebarItems } from '../../../node_modules/vuepress/lib/default-theme/util'
 import Valine from '../components/Valine'
 
+import Antd from 'ant-design-vue'
+import 'ant-design-vue/dist/antd.css'
+Vue.use(Antd)
+
 export default {
   components: { Home, Page, Sidebar, Navbar, SWUpdatePopup, Valine },
 

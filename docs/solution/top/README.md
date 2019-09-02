@@ -2,20 +2,11 @@
 
 
 
-精选题目具有的特点：
+:::tip 精选题目
+:heart: :heart: :heart: 精选题目结合了 LeetCode 本站的 [热题 HOT 100](https://leetcode-cn.com/problemset/hot-100/)，以及[ Cattle 项目维护者](https://github.com/swpuLeo/cattle/graphs/contributors)在刷题过程中觉得典型的题目。
 
-- 详细的图文搭配
-- 多语言解法支持（目前支持 JavaScript、C++、Python）
-- 解题过程可视化
-- 同类题目关联
-
-
-
-本页面所包含的图标解释：
-
-:heart: 最近一个月新发布
-
-:pencil2: 最近一周内有更新
+精选题目具有**详细的图文分析**、**多语言支持（JavaScript、C++、Python）**、**可视化解题过程**、**同类型题目推荐**等特点。
+:::
 
 
 

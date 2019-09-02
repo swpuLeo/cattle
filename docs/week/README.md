@@ -1,10 +1,19 @@
+---
+layout: WeekList
+---
+
 # 周计划
 
-每周做 7 个相同类型的题目。
+
+:::tip 周计划
+:runner: :runner: :runner: 每周将会整理 7 个题目，发布在微信公众号 W3Fun。
+:::
 
 
 
-:airplane: 目录导航
+## 目录导航
+
+:airplane:  **2019**
 
 8 月：[第 9 周](/week/9.html) | [第 10 周](/week/10.html) | [第 11 周](/week/11.html) | [第 12 周](/week/12.html) | [第 13 周](/week/13.html)
 
@@ -12,9 +21,9 @@
 
 
 
-:star: 精彩一览
+## 精彩一览
 
-点击图片即可跳转至对应题目。
+:star: :star: :star: 点击图片即可跳转至对应题目。
 
 [![](https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/solution/easy/0001-two-sum.png)](/solution/easy/0001-two-sum.html)
 

@@ -97,7 +97,7 @@ module.exports = {
       ],
       '/solution/medium/': [
         {
-          title: '简单题索引（正在更新 ...）',
+          title: '中等题索引（正在更新 ...）',
           collapsable: false,
           children: mediumChildren
         }

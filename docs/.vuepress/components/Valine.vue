@@ -3,8 +3,8 @@
     <section class="page-edit">
       <div>
         <span class="leancloud-visitors" data-flag-title="Your Article Title">
-          <em class="post-meta-item-text">阅读量：</em>
-          <i class="leancloud-visitors-count"></i>
+          <span class="post-meta-item-text">阅读量：</span>
+          <span class="leancloud-visitors-count"></span>
         </span>
       </div>
       <h3>
