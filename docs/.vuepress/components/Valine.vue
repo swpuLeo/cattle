@@ -7,8 +7,9 @@
           <span class="leancloud-visitors-count"></span>
         </span>
       </div>
-      <h3>
-        <a href="javascript;"></a>评论：
+      <h3 id="评论">
+        <a href="#评论" aria-hidden="true" class="header-anchor">#</a>
+        评论：
       </h3>
       <div id="vcomments"></div>
     </section>

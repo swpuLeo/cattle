@@ -158,7 +158,7 @@ export default {
 
   beforeRouteEnter (to, from, next) {
     next(vm => {
-      if (!['/', '/about/'].includes(to.path)) {
+      if (!['/', '/about/', '/week/'].includes(to.path)) {
         vm.isShowValine = true
       } else {
         vm.isShowValine = false

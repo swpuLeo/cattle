@@ -1,3 +1,6 @@
+---
+layout: AboutPage
+---
 # Cattle
 
 
