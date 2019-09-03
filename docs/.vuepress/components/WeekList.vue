@@ -39,7 +39,7 @@
           <img src="https://blogw3fun-1253290453.cos.ap-chengdu.myqcloud.com/meta/qrcode_v3_sm.jpg" alt="微信公众号 W3Fun">
         </div>
         <p style="text-align: center">扫描二维码，关注微信公众号 W3Fun</p>
-      </a-modal>
+    </a-modal>
   </div>
 </template>
 
