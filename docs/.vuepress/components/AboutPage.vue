@@ -26,10 +26,6 @@
       </a-timeline-item>
     </a-timeline>
     <h2>W3Fun</h2>
-    <!-- <p>
-      访问 W3Fun 主站 <a href="https://w3fun.com">https://w3fun.com</a><br/>
-      <span style="color: #3eaf7c; font-weight: 500" @click="toggleWechat">点我</span>关注微信公众号 W3Fun，不错过每一次更新～
-    </p> -->
     <a-row>
       <a-col :span="8" :offset="8">
         <a-card hoverable>
