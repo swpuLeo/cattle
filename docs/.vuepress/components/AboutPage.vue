@@ -27,7 +27,10 @@
     </a-timeline>
     <h2>W3Fun</h2>
     <a-row>
-      <a-col :span="8" :offset="8">
+      <a-col
+        :xs="{ span: 20, offset: 2 }"
+        :sm="{ span: 12, offset: 6 }"
+        :lg="{ span: 8, offset: 8 }">
         <a-card hoverable>
           <img
             alt="example"
