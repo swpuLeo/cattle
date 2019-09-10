@@ -3,3 +3,5 @@ node_modules/
 .idea/
 dist
 docs/.vuepress/pre-build.js
+docs/.vuepress/db
+TODO.md

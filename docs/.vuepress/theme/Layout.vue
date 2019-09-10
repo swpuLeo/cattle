@@ -200,3 +200,9 @@ export default {
 
 <style src="prismjs/themes/prism-tomorrow.css"></style>
 <style src="../../../node_modules/vuepress/lib/default-theme/styles/theme.styl" lang="stylus"></style>
+<style scoped>
+.content:not(.custom)  h1, h2, h3, h4, h5, h6 {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+</style>

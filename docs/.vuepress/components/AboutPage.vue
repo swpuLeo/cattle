@@ -1,12 +1,11 @@
 <template>
   <div class="ap-wrapper">
-    <h1>Cattle</h1>
-    <h2>前端数据结构与算法</h2>
-    <div style="text-align: center">
+    <h1 class="heading">Cattle</h1>
+    <h2 class="subheading">前端数据结构与算法</h2>
+    <!-- <div style="text-align: center">
       <img src="https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/meta/cattle-128.png" alt="Cattle logo">
-    </div>
-    <h2>时间轴</h2>
-    <a-timeline mode="alternate" style="margin: 40px 0">
+    </div> -->
+    <a-timeline mode="alternate" style="margin: 4rem 0">
       <a-timeline-item>2018-11-11 微信公众号第一篇推文 <a href="/solution/easy/0001-two-sum.html">0001 两数之和</a></a-timeline-item>
       <a-timeline-item color="green">创建 Github Repo <a href="https://github.com/swpuLeo/cattle" >Cattle</a> 2018-11-27</a-timeline-item>
       <a-timeline-item>
@@ -25,8 +24,8 @@
         生活还在继续，重要的时刻还会来临 ...
       </a-timeline-item>
     </a-timeline>
-    <h2>W3Fun</h2>
-    <a-row>
+    <!-- <h2>W3Fun</h2> -->
+    <a-row style="margin-bottom: 4rem">
       <a-col
         :xs="{ span: 20, offset: 2 }"
         :sm="{ span: 12, offset: 6 }"
@@ -51,7 +50,7 @@
         </a-card>
       </a-col>
     </a-row>
-    <h2>声明</h2>
+    <!-- <h2>声明</h2> -->
     <a-alert
       message="版权声明"
       description="
@@ -106,5 +105,21 @@ export default {
 
 .ap-wrapper h2 {
   border-bottom: none;
+}
+
+.ap-wrapper .heading {
+  margin: 4rem 0 2rem;
+  text-align: center;
+  color: #2c3e50;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.ap-wrapper .subheading {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #2c3e50;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
 </style>
