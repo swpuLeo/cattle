@@ -1,6 +1,7 @@
-# 944 删栏造序
+# 0944 删栏造序
 
-::: tip 关于题目
+
+
 
 难度：[简单](/solution/easy/)
 
@@ -8,9 +9,7 @@
 
 来源：[LeetCode](https://leetcode.com/problems/delete-columns-to-make-sorted/)  [力扣](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/)
 
-源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/DeleteColumnsToMakeSorted.js)
-
-:::
+源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/0944-delete-columns-to-make-sorted.js)
 
 
 
@@ -22,34 +21,35 @@
 
 假设，我们选择了一组删除索引 D，那么执行删除操作后，A 中所剩的每一列都必须是非降序排列的，然后请你返回 D.length 的最小可能值。
 
-示例如下：
+示例 1：
 
 ```
-示例 1
-
 输入：["cba", "daf", "ghi"]
 输出：1
 解释：
 当选择 D = {1}，删除后 A 的列为：["c","d","g"] 和 ["a","f","i"]，均为非降序排列。
 若选择 D = {}，那么 A 的列 ["b","a","h"] 就不是非降序排列了。
+```
 
+示例 2:
 
-示例 2
-
+```
 输入：["a", "b"]
 输出：0
 解释：D = {}
 
+```
 
-示例 3
+示例 3:
 
+```
 输入：["zyx", "wvu", "tsr"]
 输出：3
 解释：D = {0, 1, 2}
 ```
 
-注意：
-- 0 ≤ A.length ≤ 100；
+注意:
+- 0 ≤ A.length ≤ 100
 - 0 ≤ A[i].length ≤ 1000
 
 
@@ -59,7 +59,9 @@
 
 对于数组 A 来说，它的每一项都是长度相等的字符串，我把它画到一个平面上来看。
 
-![944-illustration](https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/944-illustration.webp)
+<div style="margin: 20px 0;text-align: center">
+  <img src="https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/944-illustration.webp" alt="0944-illustration">
+</div>
 
 然后，我们要判断，该平面中所有的列是否是非降序的，如果不是非降序排列的，那么我们就要将其删除。上图给出的列子中，只有第 1 列不是非降序的，所以我们删除的最小可能值为 1，就能使平面剩余的列达到非降序排列。
 

@@ -1,6 +1,7 @@
-# 860 柠檬水找零
+# 0860 柠檬水找零
 
-::: tip 关于题目
+
+
 
 难度：[简单](/solution/easy/)
 
@@ -8,9 +9,7 @@
 
 来源：[LeetCode](https://leetcode.com/problems/lemonade-change/)  [力扣](https://leetcode-cn.com/problems/lemonade-change/)
 
-源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/LemonadeChange.js)
-
-:::
+源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/0860-lemonade-change.js)
 
 
 
@@ -20,7 +19,8 @@
 
 注意：一开始你手头并没有任何零钱。如果你能够给每位顾客找零，返回 true，否则返回 false。
 
-示例如下：
+
+示例 1:
 
 ```
 输入：[5,5,5,10,20]
@@ -30,16 +30,25 @@
 第 4 位顾客那里，我们收取一张 10 美元的钞票，并返还 5 美元。
 第 5 位顾客那里，我们找还一张 10 美元的钞票和一张 5 美元的钞票。
 由于所有客户都得到了正确的找零，所以我们输出 true。
+```
 
+示例 2:
 
+```
 输入：[5,5,10]
 输出：true
+```
 
+示例 3:
 
+```
 输入：[10,10]
 输出：false
+```
 
+示例 4:
 
+```
 输入：[5,5,10,10,20]
 输出：false
 解释：

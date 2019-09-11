@@ -7,11 +7,13 @@
 
 ### 简单题
 
-- [0122 买卖股票的最佳时机 II](/solution/easy/122-best-time-to-buy-and-sell-stock-ii.html)
-- [0455 分发饼干](/solution/easy/455-assign-cookies.html)
-- [0860 柠檬水找零](/solution/easy/860-lemonade-change.html)
-- [0874 模拟机器人行走](/solution/easy/874-walking-robot-simulation.html)
-- [0944 删列造序](/solution/easy/944-delete-columns-to-make-sorted.html)
+- [0122 买卖股票的最佳时机 II](/solution/easy/0122-best-time-to-buy-and-sell-stock-ii.html)
+- [0392 判断子序列](/solution/easy/0392-is-subsequence.html)
+- [0455 分发饼干](/solution/easy/0455-assign-cookies.html)
+- [0860 柠檬水找零](/solution/easy/0860-lemonade-change.html)
+- [0874 模拟机器人行走](/solution/easy/0874-walking-robot-simulation.html)
+- [0944 删列造序](/solution/easy/0944-delete-columns-to-make-sorted.html)
+- [0984 不含 AAA 或 BBB 的字符串](/solution/easy/0984-string-without-aaa-or-bbb.html)
 
 
 
