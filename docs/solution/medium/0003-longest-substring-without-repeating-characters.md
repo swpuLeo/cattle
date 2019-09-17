@@ -43,7 +43,7 @@
 
 ```
 输入: "abcabcbb"
-输出: 3 
+输出: 3
 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
 ```
 
@@ -130,4 +130,4 @@ var maxArea = function(height) {
 
 ## 相关推荐
 
-我为你挑选的[数组](/art/array.html)题目：
+我为你挑选的[字符串](/art/string.html)题目：
