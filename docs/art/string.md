@@ -24,19 +24,19 @@
 - [0434 字符串中的单词数](/solution/easy/0434-number-of-segments-in-a-string.html)
 - [0443 压缩字符串](/solution/easy/0443-string-compression.html)
 - [0459 重复的子字符串](/solution/easy/0459-repeated-substring-pattern.html)
-- [0520 检测大写字母](/solution/easy/0520-detect-capital.html) ​ ​ :new:
-- [0521 最长特殊序列 I](/solution/easy/0521-longest-uncommon-subsequence-i.html)   :new:
-- [0541 反转字符串 II](/solution/easy/0541-reverse-string-ii.html)   :new:
-- [0551 学生出勤记录 I](/solution/easy/0551-student-attendance-record-i.html)   :new:
-- [0557 反转字符串中的单词 III](/solution/easy/0557-reverse-words-in-a-string-iii.html)   :new:
+- [0520 检测大写字母](/solution/easy/0520-detect-capital.html)
+- [0521 最长特殊序列 I](/solution/easy/0521-longest-uncommon-subsequence-i.html)
+- [0541 反转字符串 II](/solution/easy/0541-reverse-string-ii.html)
+- [0551 学生出勤记录 I](/solution/easy/0551-student-attendance-record-i.html)
+- [0557 反转字符串中的单词 III](/solution/easy/0557-reverse-words-in-a-string-iii.html)
 - [0606 根据二叉树创建字符串](/solution/easy/0606-construct-string-from-binary-tree.html)
 - [0657 机器人能否返回原点](/solution/easy/0657-robot-return-to-origin.html)
 - [0680 验证回文字符串 II](/solution/easy/0680-valid-palindrome-ii.html)
 - [0686 重复叠加字符串匹配](/solution/easy/0680-repeated-string-match.html)
-- [0788 旋转数字](/solution/easy/0788-rotated-digits.html)   :new:
-- [0804 唯一莫尔斯密码词](/solution/easy/0804-unique-morse-code-words.html)   :new:
-- [0819 最常见的单词](/solution/easy/0819-most-common-word.html)   :new:
-- [0824 山羊拉丁文](/solution/easy/0824-goat-latin.html)   :new:
+- [0788 旋转数字](/solution/easy/0788-rotated-digits.html)
+- [0804 唯一莫尔斯密码词](/solution/easy/0804-unique-morse-code-words.html)
+- [0819 最常见的单词](/solution/easy/0819-most-common-word.html)
+- [0824 山羊拉丁文](/solution/easy/0824-goat-latin.html)
 - 0859 亲密字符串
 - 0893 特殊等价字符串组
 - 0917 仅仅反转字母
@@ -49,11 +49,11 @@
 
 ### 中等题
 
-- 0003 无重复字符的最长子串
-- 0005 最长回文子串
-- 0006 Z 字形变换
+- [0003 无重复字符的最长子串](/solution/medium/0003-longest-substring-without-repeating-characters.html)
+- [0005 最长回文子串](/solution/medium/0005-longest-palindromic-substring.html)
+- [0006 Z 字形变换](/solution/medium//solution/medium/0006-zigzag-conversion.html)
 - [0008 字符串转换整数(atoi)](/solution/medium/0008-string-to-integer.html)
-- 0012 整数转罗马数字
+- [0012 整数转罗马数字](/solution/medium/0012-integer-to-roman.html)
 - 0017 电话号码的字母组合
 - 0022 括号生成
 - 0043 字符串相乘
@@ -66,7 +66,7 @@
 - 0227 基本计算器
 - 0385 迷你语法分析器
 - 0468 验证 IP 地址
-- [0522 最长特殊序列 II](/solution/medium/0522-longest-uncommon-subsequence-ii.html)   :new:
+- [0522 最长特殊序列 II](/solution/medium/0522-longest-uncommon-subsequence-ii.html)
 - 0537 复数乘法
 - 0539 最小时间差
 - 0553 最优除法
@@ -91,3 +91,9 @@
 - 1003 检查替换后的词是否有效
 - 1016 子串能表示从 1 到 N 数字的二进制串
 - 1023 驼峰式匹配
+
+
+
+## 困难题
+
+- [0010 正则表达式匹配](/solution/difficult/0010-regular-expression-matching.html)
