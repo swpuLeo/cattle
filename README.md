@@ -12,13 +12,13 @@
 
 ## 题目统计
 
-JavaScript：196
+JavaScript：200
 
-C++：60
+C++：62
 
 Python：2
 
-统计时间：2019-09-11 11:44:14
+统计时间：2019-09-19 14:33:12
 
 
 ## 精彩一览
@@ -27,7 +27,7 @@ Python：2
 
 **2019** :airplane:
 
-9 月：[第 14 周](https://cattle.w3fun.com/week/14.html)
+9 月：[第 14 周](https://cattle.w3fun.com/week/14.html) | [第 15 周](https://cattle.w3fun.com/week/15.html) | [第 16 周](https://cattle.w3fun.com/week/16.html)
 
 8 月：[第 9 周](https://cattle.w3fun.com/week/9.html) | [第 10 周](https://cattle.w3fun.com/week/10.html) | [第 11 周](https://cattle.w3fun.com/week/11.html) | [第 12 周](https://cattle.w3fun.com/week/12.html) | [第 13 周](https://cattle.w3fun.com/week/13.html)
 
@@ -102,7 +102,13 @@ Python：2
 
 ### 字符串
 
-- [0003 无重复字符的最长子字符串](https://cattle.w3fun.comhttps://cattle.w3fun.com/solution/medium/0003-longest-substring-without-repeating-characters.html)
+- [0003 无重复字符的最长子字符串](https://cattle.w3fun.com/solution/medium/0003-longest-substring-without-repeating-characters.html)
+- [0005 最长回文字串](https://cattle.w3fun.com/solution/medium//solution/medium/0005-longest-palindromic-substring.html)
+- [0006 Z 字形变换](https://cattle.w3fun.com/solution/medium//solution/medium/0006-zigzag-conversion.html)
+- [0008 字符串转整数（atoi）](https://cattle.w3fun.com/solution/medium/solution/medium/0008-string-to-integer-atoi.html)
+- [0010 正则表达式匹配](https://cattle.w3fun.com/solution/difficult/0010-regular-expression-matching.html)
+- [0012 整数转罗马数字](https://cattle.w3fun.com/solution/medium/0012-integer-to-roman.html)
+- [0013 罗马数字转整数](https://cattle.w3fun.com/solution/easy/0013-roman-to-integer.html)
 
 
 ### 贪心算法
