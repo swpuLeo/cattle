@@ -75,5 +75,14 @@ export const LINK_MAP = {
   },
   '困难': {
     path: 'difficult'
+  },
+  'js': {
+    color: 'green'
+  },
+  'cpp': {
+    color: 'cyan'
+  },
+  'py': {
+    color: 'blue'
   }
 }

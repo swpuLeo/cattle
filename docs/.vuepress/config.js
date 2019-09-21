@@ -138,7 +138,8 @@ module.exports = {
   ],
   markdown: {
     config: md => {
-      md.set({ linkify: true })
+      md.set({ linkify: true }),
+      md.use(require('markdown-it-katex'))
     },
     toc: {
       includeLevel: [2, 3, 4, 5, 6]
