@@ -1,18 +1,14 @@
 # 0043 字符串相乘
 
-
-
 ## 题目导航
 
-难度：[中等](/solution/medium/)
+难度：[简单](/solution/easy/)
 
 分类：[字符串](/art/string.html) | [数学](/art/math.html)
 
 来源：[LeetCode](https://leetcode.com/problems/multiply-strings/)  [力扣](https://leetcode-cn.com/problems/multiply-strings/)
 
-源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/medium/0043-multiply-strings.js)
-
-
+源码：[JS 版本](https://github.com/swpuLeo/leetcode/blob/master/src/easy/0043-multiply-strings.js)
 
 
 
@@ -20,6 +16,19 @@
 
 给定两个以字符串形式表示的非负整数 num1 和 num2，返回 num1 和 num2 的乘积，它们的乘积也表示为字符串形式。
 
+示例 1：
+
+```
+输入: num1 = "2", num2 = "3"
+输出: "6"
+```
+
+示例 2：
+
+```
+输入: num1 = "123", num2 = "456"
+输出: "56088"
+```
 
 说明：
 
@@ -29,26 +38,7 @@
 - 不能使用任何标准库的大数类型（比如 BigInteger）或直接将输入转换为整数来处理。
 
 
-
-示例 1:
-
-```
-输入: num1 = "2", num2 = "3"
-输出: "6"
-```
-
-
-示例 2:
-
-```
-输入: num1 = "123", num2 = "456"
-输出: "56088"
-```
-
-
-
-::: tip 声明 题目来源
-
+::: tip 题目来源
 来源：力扣（LeetCode）
 
 链接：https://leetcode-cn.com/problems/multiply-strings
@@ -99,8 +89,6 @@ var multiply = function(num1, num2) {
   })
 };
 ```
-
-
 
 
 

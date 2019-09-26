@@ -1,6 +1,7 @@
-# 028 实现 strStr()
+# 0028 实现 strStr()
 
-::: tip 关于题目
+
+## 题目导航
 
 难度：[简单](/solution/easy/)
 
@@ -8,9 +9,7 @@
 
 来源：[LeetCode](https://leetcode.com/problems/implement-strstr/)  [力扣](https://leetcode-cn.com/problems/implement-strstr/)
 
-源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/Implement-strStr.js)
-
-:::
+源码：[JS 版本](https://github.com/swpuLeo/leetcode/blob/master/src/easy/0028-implement-strstr.js)
 
 
 
@@ -35,6 +34,13 @@
 当 `needle` 是空字符串时，我们应当返回什么值呢？这是一个在面试中很好的问题。
 
 对于本题而言，当 `needle` 是空字符串时我们应当返回 0 。这与C语言的 [strstr()](https://baike.baidu.com/item/strstr/811469) 以及 Java的 [indexOf()](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)) 定义相符。
+
+
+::: tip 题目来源
+来源：力扣（LeetCode）
+
+链接：https://leetcode-cn.com/problems/implement-strstr
+:::
 
 
 

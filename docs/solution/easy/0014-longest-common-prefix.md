@@ -1,6 +1,7 @@
-# 014 最长公共前缀
+# 0014 最长公共前缀
 
-::: tip 关于题目
+
+## 题目导航
 
 难度：[简单](/solution/easy/)
 
@@ -8,9 +9,7 @@
 
 来源：[LeetCode](https://leetcode.com/problems/longest-common-prefix/)  [力扣](https://leetcode-cn.com/problems/longest-common-prefix/)
 
-源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/LongestCommonPrefix.js)
-
-:::
+源码：[JS 版本](https://github.com/swpuLeo/leetcode/blob/master/src/easy/0014-longest-common-prefix.js)
 
 
 
@@ -34,6 +33,12 @@
 **说明:**
 
 所有输入只包含小写字母 `a-z` 。
+
+::: tip 题目来源
+来源：力扣（LeetCode）
+
+链接：https://leetcode-cn.com/problems/longest-common-prefix
+:::
 
 
 
