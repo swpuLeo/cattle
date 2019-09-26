@@ -1,6 +1,6 @@
-# 038 报数
+# 0038 报数
 
-::: tip 关于题目
+## 题目导航
 
 难度：[简单](/solution/easy/)
 
@@ -8,9 +8,7 @@
 
 来源：[LeetCode](https://leetcode.com/problems/count-and-say/)  [力扣](https://leetcode-cn.com/problems/count-and-say/)
 
-源码：[JS 版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/CountAndSay.js)
-
-:::
+源码：[JS 版本](https://github.com/swpuLeo/leetcode/blob/master/src/easy/0038-count-and-say.js)
 
 
 
@@ -43,6 +41,12 @@
 输入: 4
 输出: "1211"
 ```
+
+::: tip 题目来源
+来源：力扣（LeetCode）
+
+链接：https://leetcode-cn.com/problems/count-and-say
+:::
 
 
 
