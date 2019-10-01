@@ -12,13 +12,13 @@
 
 ## 题目统计
 
-JavaScript：204
+JavaScript：206
 
-C++：66
+C++：67
 
 Python：2
 
-统计时间：2019-09-26 20:41:00
+统计时间：2019-10-01 22:44:52
 
 
 ## 精彩一览
@@ -26,6 +26,8 @@ Python：2
 ### 周计划
 
 **2019** :airplane:
+
+10 月：[第 18 周](https://cattle.w3fun.com/week/18.html)
 
 9 月：[第 14 周](https://cattle.w3fun.com/week/14.html) | [第 15 周](https://cattle.w3fun.com/week/15.html) | [第 16 周](https://cattle.w3fun.com/week/16.html) | [第 17 周](https://cattle.w3fun.com/week/17.html)
 
