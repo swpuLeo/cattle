@@ -48,7 +48,7 @@ export default {
         path,
         visitor: true,
         avatar: 'monsterid',
-        placeholder: '说点什么吧'
+        placeholder: '为了更好地交流，评论时可以填写自己的昵称、邮箱和网址（推荐 GitHub 地址或者你的博客地址）'
       })
     }
   }

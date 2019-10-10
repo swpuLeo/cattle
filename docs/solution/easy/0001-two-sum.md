@@ -77,7 +77,7 @@ var twoSum = function(nums, target) {
 
 ## 相关推荐
 
-<recommend-card />
+<!-- <recommend-card /> -->
 
 <about-me />
 
