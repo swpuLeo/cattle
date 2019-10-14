@@ -6,13 +6,40 @@
  * }
  */
 /**
- * @param {TreeNode} p
- * @param {TreeNode} q
- * @return {boolean}
+ * @param {TreeNode} root
+ * @return {number[][]}
  */
-var isSameTree = function(p, q) {
-  if (!p && !q) return true;
-  if (!p || !q) return false;
-  if (p.val === q.val) return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
-  return false;
+var levelOrder = function(root) {
+  if (!root) return []
+
+  let result = []
+  let queue = [root]
+  let tmp = []
+  let curLvlCount = 1
+  let nextLvlCount = 0
+
+  while(queue.length) {
+    let node = queue.shift()
+    tmp.push(node.val)
+    curLvlCount -= 1
+
+    if (node.left) {
+      queue.push(node.left)
+      nextLvlCount += 1
+    }
+
+    if (node.right) {
+      queue.push(node.right)
+      nextLvlCount += 1
+    }
+
+    if (curLvlCount === 0) {
+      result.push(tmp)
+      curLvlCount = nextLvlCount
+      nextLvlCount = 0
+      tmp = []
+    }
+  }
+
+  return result
 };
