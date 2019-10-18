@@ -27,7 +27,7 @@ Python：2
 
 [0039 组合总数](https://github.com/swpuLeo/cattle/blob/master/src/medium/0039-combination-sum.js)
 
-![0039-1](https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/illustration/0039-1.png)
+![0039-1](https://github.com/swpuLeo/cattle/blob/master/img/0039-1.png)
 
 
 ### 周计划
