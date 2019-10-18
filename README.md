@@ -23,11 +23,18 @@ Python：2
 
 ## 精彩一览
 
+### Top 精选
+
+[0039 组合总数](https://github.com/swpuLeo/cattle/blob/master/src/medium/0039-combination-sum.js)
+
+![0039-1](https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/illustration/0039-1)
+
+
 ### 周计划
 
 **2019** :airplane:
 
-10 月：[第 18 周](https://cattle.w3fun.com/week/18.html)
+10 月：[第 18 周](https://cattle.w3fun.com/week/18.html) | [第 19 周](https://cattle.w3fun.com/week/19.html) | [第 20 周](https://cattle.w3fun.com/week/20.html)
 
 9 月：[第 14 周](https://cattle.w3fun.com/week/14.html) | [第 15 周](https://cattle.w3fun.com/week/15.html) | [第 16 周](https://cattle.w3fun.com/week/16.html) | [第 17 周](https://cattle.w3fun.com/week/17.html)
 
