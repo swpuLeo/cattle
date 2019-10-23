@@ -61,7 +61,6 @@ export default {
   data () {
     return {
       week: genArray(5, 5 + diff).reverse(),
-      height: 0,
       cardStyles: {
         margin: '40px 0',
         maxHeight: '160px' // 240 270
@@ -81,23 +80,18 @@ export default {
 </script>
 
 <style lang="stylus">
-.wl-wrapper {
+.wl-wrapper
   max-width 960px
   margin 0 auto
   padding 2rem 2.5rem
-
-  .heading {
+  .heading
     margin 4rem 0 2rem
     text-align center
     color #2c3e50
     font-size 3rem
     font-weight 300
-  }
-
-  .wechat-trigger {
+  .wechat-trigger
     color #3eaf7c
     font-weight 500
     cursor pointer
-  }
-}
 </style>
