@@ -10,6 +10,18 @@
         关注微信公众号 W3Fun，不错过每一次更新～
       </p>
     </div>
+    <PlayGround source="var twoSum = function(nums, target) {
+  var diffMap = {};
+  for (var i = 0; i < nums.length; i++) {
+    var cur = nums[i];
+    var diff = target - cur;
+    if (diffMap[cur] !== undefined) {
+      return [diffMap[cur], i];
+    }
+    diffMap[diff] = i;
+  }
+};
+twoSum([3, 2, 5, 7, 11], 9)"></PlayGround>
     <a-row :gutter="40">
       <a-col
         :xs="24"
@@ -48,8 +60,10 @@
 </template>
 
 <script>
+import PlayGround from './PlayGround'
 export default {
   name: 'TopList',
+  components: { PlayGround },
   data () {
     return {
       wechatVisibility: false,

@@ -29,8 +29,8 @@
 
 最直接的思路就是循环 `nums`，从中找出两个整数，两两相加，判断与 `target` 是否相等，相等的话，记录下下标，并返回。这样的话，执行的次数最多为 `n(n - 1)/2`，那么时间复杂度为 `O(n^2)`。
 
-```js
-/**
+
+<play-ground source="/**
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
@@ -44,7 +44,8 @@ var twoSum = function(nums, target) {
     }
   }
 }
-```
+
+twoSum([3, 2, 5, 7, 11], 9)" />
 
 
 :cow: **思路二 哈希表** <Badge type="tip" text="推荐" />
@@ -53,8 +54,8 @@ var twoSum = function(nums, target) {
 
 这个思路的时间复杂度为 `O(n)`，空间复杂度为 `O(n)`。这也是一个典型的以空间换取时间的题目。
 
-```js
-/**
+
+<play-ground source="/**
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
@@ -70,7 +71,9 @@ var twoSum = function(nums, target) {
     map.set(cur, i)
   }
 }
-```
+
+twoSum([3, 2, 5, 7, 11], 9)" />
+
 
 <article-divider />
 
