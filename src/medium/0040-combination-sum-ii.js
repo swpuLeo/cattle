@@ -23,3 +23,5 @@ var combinationSum2 = function(candidates, target) {
   processor([], 0, 0)
   return res
 };
+
+combinationSum2([2, 3, 2, 3, 6, 7], 7)
