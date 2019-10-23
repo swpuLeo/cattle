@@ -1,77 +1,65 @@
 <template>
   <div class="tl-wrapper">
     <h1 class="heading">LeetCode 精选</h1>
-    <h2 class="subheading">精选 100 题</h2>
-    <a-table :columns="columns" :dataSource="data" :pagination="data.length > 10">
-      <a
-        slot="name"
-        slot-scope="text, record"
-        :href="record.link">
-          {{`${record.key} ${text}`}}
-      </a>
-      <span slot="tags" slot-scope="tags">
-        <a-tag v-for="tag in tags" :color="linkMap[tag]['color']" :key="tag" @click="goto(linkMap[tag]['path'])">
-          {{tag}}
-        </a-tag>
-      </span>
-      <span slot="difficulty" slot-scope="text">
-        <a :href="`/solution/${linkMap[text]['path']}/`">{{text}}</a>
-      </span>
-      <span slot="source" slot-scope="text, record">
-        <a-tag
-          v-for="srcType in text"
-          :color="linkMap[srcType]['color']"
-          :key="srcType"
-          @click="goto(`https://github.com/swpuLeo/cattle/blob/master/src/${record.difficultyEn}/${record.path}.${srcType}`, true)">
-            {{srcType}}
-        </a-tag>
-      </span>
-    </a-table>
+    <div class="tip custom-block">
+      <p>Practice makes perfect.</p>
+      <p>
+        <span class="wechat-trigger" @click="toggleWechat">
+          点我
+        </span>
+        关注微信公众号 W3Fun，不错过每一次更新～
+      </p>
+    </div>
+    <a-row :gutter="40">
+      <a-col
+        :xs="24"
+        :sm="12"
+        :lg="8"
+        v-for="(item, index) in top"
+        :key="index"
+        :style="cardStyles">
+        <!-- 指定最大高度用于修复布局混乱的 bug -->
+        <a-badge :count="index === 0 ? 'new' : ''">
+          <a-card
+            :title="item.title"
+            hoverable
+            @click="goto('https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485237&idx=1&sn=1a6d9050968a8ca1b86d218a560ace04&chksm=e8f8712cdf8ff83a0a13405b6c3e16f579c5df627a806214b8344bda1276368ad16c9fa9e1cc&token=244436649&lang=zh_CN#rd', true)"
+            style="overflow: hidden">
+            <img
+              :alt="`top-${item.title}`"
+              :src="`https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/solution/top/cover/${item.id}.jpeg`"
+              slot="cover"
+            />
+          </a-card>
+        </a-badge>
+      </a-col>
+    </a-row>
+    <a-modal
+      title="关注微信公众号 W3Fun"
+      :visible="wechatVisibility"
+      :footer="null"
+      @cancel="toggleWechat">
+        <div style="text-align: center; margin-top: 20px;">
+          <img src="https://blogw3fun-1253290453.cos.ap-chengdu.myqcloud.com/meta/qrcode_v3_sm.jpg" alt="微信公众号 W3Fun">
+        </div>
+        <p style="text-align: center">扫描二维码，关注微信公众号 W3Fun</p>
+    </a-modal>
   </div>
 </template>
 
 <script>
-import { LINK_MAP } from '../constants'
-import top from '../db/solution/top'
-const columns = [
-  {
-    title: '题目索引',
-    dataIndex: 'name',
-    key: 'name',
-    scopedSlots: { customRender: 'name' },
-  },
-  {
-    title: '标签',
-    key: 'tags',
-    dataIndex: 'tags',
-    slot: 'tags',
-    width: '24%',
-    scopedSlots: { customRender: 'tags' },
-  },
-  {
-    title: '难度',
-    key: 'difficulty',
-    dataIndex: 'difficulty',
-    width: '10%',
-    scopedSlots: { customRender: 'difficulty' },
-  },
-  {
-    title: '源码',
-    key: 'source',
-    dataIndex: 'source',
-    slot: 'source',
-    width: '24%',
-    scopedSlots: { customRender: 'source' },
-  }
-]
-
 export default {
   name: 'TopList',
   data () {
     return {
-      data: top,
-      columns,
-      linkMap: LINK_MAP
+      wechatVisibility: false,
+      cardStyles: {
+        margin: '40px 0',
+        maxHeight: '160px' // 240 270
+      },
+      top: [
+        { id: '000000', title: '0039、0040 组合总和' }
+      ]
     }
   },
   methods: {
@@ -79,6 +67,9 @@ export default {
       isExternal ?
       window.location = path :
       window.location.pathname = `/art/${path}.html`
+    },
+    toggleWechat () {
+      this.wechatVisibility = !this.wechatVisibility
     }
   }
 }
@@ -86,20 +77,17 @@ export default {
 
 <style lang="stylus">
 .tl-wrapper
-  max-width: 740px
-  margin: 0 auto
-  padding: 2rem 2.5rem
+  max-width 960px
+  margin 0 auto
+  padding 2rem 2.5rem
   .heading
     margin: 4rem 0 2rem
     text-align: center
     color: #2c3e50
     font-size: 3rem
     font-weight: 300
-  .subheading
-    margin-bottom: 2rem
-    text-align: center
-    color: #2c3e50
-    font-size: 1.8rem
-    font-weight: 400
-    border-bottom: 0
+  .wechat-trigger
+    color #3eaf7c
+    font-weight 500
+    cursor pointer
 </style>
