@@ -1,17 +1,20 @@
-const path = require('path');
-const fs = require('fs');
+const path = require('path')
+const fs = require('fs')
 
 const getAllMdFile = dir => {
-  return fs.readdirSync(dir).slice(0, -1).map(file => {
-    return file.slice(0, file.length - 3);
-  });
-};
+  return fs
+    .readdirSync(dir)
+    .slice(0, -1)
+    .map(file => {
+      return file.slice(0, file.length - 3)
+    })
+}
 
 const sortFunc = (a, b) => +a.split('-')[0] - +b.split('-')[0]
 
 const easyChildren = getAllMdFile('docs/solution/easy')
 const mediumChildren = getAllMdFile('docs/solution/medium')
-const difficultChildren =  getAllMdFile('docs/solution/difficult')
+const difficultChildren = getAllMdFile('docs/solution/difficult')
 easyChildren.sort(sortFunc)
 mediumChildren.sort(sortFunc)
 difficultChildren.sort(sortFunc)
@@ -25,10 +28,16 @@ module.exports = {
   title: 'Cattle',
   description: '前端数据结构与算法',
   head: [
-    ['link', { rel: 'icon', href: 'https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/meta/cattle-16.png' }]
+    [
+      'link',
+      {
+        rel: 'icon',
+        href:
+          'https://w3fun-1253290453.cos.ap-chengdu.myqcloud.com/cattle/meta/cattle-16.png',
+      },
+    ],
   ],
-  ga: 'UA-134130074-2',
-  serviceWorker: true,
+  theme: '@vuepress/theme-default',
   themeConfig: {
     nav: [
       { text: '从这里开始', link: '/art/' },
@@ -39,11 +48,11 @@ module.exports = {
           { text: '精选', link: '/solution/top/' },
           { text: '简单', link: '/solution/easy/' },
           { text: '中等', link: '/solution/medium/' },
-          { text: '困难', link: '/solution/difficult/' }
-        ]
+          { text: '困难', link: '/solution/difficult/' },
+        ],
       },
       { text: 'Lodash', link: '/lodash/' },
-      { text: '关于', link: '/about/' }
+      { text: '关于', link: '/about/' },
     ],
     sidebarDepth: 3,
     sidebar: {
@@ -51,7 +60,7 @@ module.exports = {
         {
           title: '从这里开始',
           collapsable: false,
-          children: ['']
+          children: [''],
         },
         {
           title: '数据结构（正在更新 ...）',
@@ -67,8 +76,8 @@ module.exports = {
             'tree',
             'graph',
             'math',
-            'bit-manipulation'
-          ]
+            'bit-manipulation',
+          ],
         },
         {
           title: '算法（正在更新 ...）',
@@ -79,38 +88,38 @@ module.exports = {
             'greedy',
             'dynamic-programming',
             'divide-conquer',
-            'back-tracking'
-          ]
-        }
+            'back-tracking',
+          ],
+        },
       ],
       '/solution/easy/': [
         {
           title: '简单题索引（正在更新 ...）',
           collapsable: false,
-          children: easyChildren
-        }
+          children: easyChildren,
+        },
       ],
       '/solution/medium/': [
         {
           title: '中等题索引（正在更新 ...）',
           collapsable: false,
-          children: mediumChildren
-        }
+          children: mediumChildren,
+        },
       ],
       '/solution/difficult/': [
         {
           title: '困难题索引（正在更新 ...）',
           collapsable: false,
-          children: difficultChildren
-        }
+          children: difficultChildren,
+        },
       ],
       '/week/': [
         {
           title: '周计划',
           collapsable: false,
-          children: weekChildren
-        }
-      ]
+          children: weekChildren,
+        },
+      ],
     },
     lastUpdated: '最近更新',
     repo: 'swpuLeo/cattle',
@@ -118,26 +127,34 @@ module.exports = {
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '帮助本站改善此页面！',
-    serviceWorker: {
-      updatePopup: {
-        message: '网站内容更新啦',
-        buttonText: '立即刷新'
-      }
-    }
   },
   plugins: [
     '@vuepress/register-components',
     {
-      componentsDir: './components'
-    }
+      componentsDir: './components',
+    },
+    [
+      '@vuepress/google-analytics',
+      {
+        ga: 'UA-134130074-2',
+      },
+    ],
+    {
+      '@vuepress/pwa': {
+        serviceWorker: true,
+        updatePopup: {
+          message: '网站内容更新啦 [啤酒]',
+          buttonText: '立即刷新',
+        },
+      },
+    },
   ],
   markdown: {
-    config: md => {
-      md.set({ linkify: true }),
-      md.use(require('markdown-it-katex'))
+    extendMarkdown: md => {
+      md.set({ linkify: true }), md.use(require('markdown-it-katex'))
     },
     toc: {
-      includeLevel: [2, 3, 4, 5, 6]
-    }
-  }
+      includeLevel: [2, 3, 4, 5, 6],
+    },
+  },
 }

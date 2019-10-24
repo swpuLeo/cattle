@@ -1,27 +1,22 @@
 ---
-layout: WeekList
+layout: WeekPage
 ---
 
 # 周计划
-
 
 :::tip 周计划
 :runner: :runner: :runner: 每周将会整理 7 个题目，发布在微信公众号 W3Fun。
 :::
 
-
-
 ## 目录导航
 
-:airplane:  **2019**
+:airplane: **2019**
 
 9 月：[第 14 周](/week/14.html)
 
 8 月：[第 9 周](/week/9.html) | [第 10 周](/week/10.html) | [第 11 周](/week/11.html) | [第 12 周](/week/12.html) | [第 13 周](/week/13.html)
 
 7 月： [第 5 周](/week/5.html) | [第 6 周](/week/6.html) | [第 7 周](/week/7.html) | [第 8 周](/week/8.html)
-
-
 
 ## 精彩一览
 
