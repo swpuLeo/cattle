@@ -3,13 +3,13 @@
  * @return {string}
  */
 var removeDuplicates = function(S) {
-  const stack = [];
+  const stack = []
   for (let i of S) {
     if (i === stack[stack.length - 1]) {
-      stack.pop();
+      stack.pop()
     } else {
-      stack.push(i);
+      stack.push(i)
     }
   }
-  return stack.join('');
-};
+  return stack.join('')
+}
