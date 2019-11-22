@@ -1,6 +1,5 @@
 # Cattle
 
-
 :new: 网页版 [https://cattle.w3fun.com](https://cattle.w3fun.com)
 
 > （前端向）数据结构 + 算法 + LeetCode（JavaScript & C++ & Python）
@@ -8,7 +7,6 @@
 > 在奥地利与意大利之间，阿尔卑斯山有一段叫 Semmering，十分的陡峭，十分的高。他们在上面建了铁路来连接维也纳和威尼斯。这段铁路是在还没有火车之前就建好的。他们修建了它是因为他们知道有一天火车会来。
 
 :train: :train: :train: :cow: :cow: :cow: :runner: :runner: :runner:
-
 
 ## 题目统计
 
@@ -20,7 +18,6 @@ Python：2
 
 统计时间：2019-10-01 22:44:52
 
-
 ## 精彩一览
 
 ### Top 精选
@@ -29,18 +26,21 @@ Python：2
 
 ![0039-1](https://github.com/swpuLeo/cattle/blob/master/img/0039-1.png)
 
-
 ### 周计划
 
 **2019** :airplane:
 
-10 月：[第 18 周](https://cattle.w3fun.com/week/18.html) | [第 19 周](https://cattle.w3fun.com/week/19.html) | [第 20 周](https://cattle.w3fun.com/week/20.html)
+11 月：[第 22 周](https://cattle.w3fun.com/week/22.html) | [第 23 周](https://cattle.w3fun.com/week/23.html) | [第 24 周](https://cattle.w3fun.com/week/24.html) | [第 25 周](https://cattle.w3fun.com/week/25.html)
+
+10 月：[第 18 周](https://cattle.w3fun.com/week/18.html) | [第 19 周](https://cattle.w3fun.com/week/19.html) | [第 20 周](https://cattle.w3fun.com/week/20.html) | [第 21 周](https://cattle.w3fun.com/week/21.html)
 
 9 月：[第 14 周](https://cattle.w3fun.com/week/14.html) | [第 15 周](https://cattle.w3fun.com/week/15.html) | [第 16 周](https://cattle.w3fun.com/week/16.html) | [第 17 周](https://cattle.w3fun.com/week/17.html)
 
 8 月：[第 9 周](https://cattle.w3fun.com/week/9.html) | [第 10 周](https://cattle.w3fun.com/week/10.html) | [第 11 周](https://cattle.w3fun.com/week/11.html) | [第 12 周](https://cattle.w3fun.com/week/12.html) | [第 13 周](https://cattle.w3fun.com/week/13.html)
 
 7 月：[第 5 周](https://cattle.w3fun.com/week/5.html) | [第 6 周](https://cattle.w3fun.com/week/6.html) | [第 7 周](https://cattle.w3fun.com/week/7.html) | [第 8 周](https://cattle.w3fun.com/week/8.html)
+
+before July: [第 1 周](https://cattle.w3fun.com/week/1.html) | [第 2 周](https://cattle.w3fun.com/week/2.html) | [第 3 周](https://cattle.w3fun.com/week/3.html) | [第 4 周](https://cattle.w3fun.com/week/4.html)
 
 ### 数组
 
@@ -69,13 +69,13 @@ Python：2
 - [0268 缺失数字](https://cattle.w3fun.com/solution/easy/0268-missing-number.html)
 - [0283 移动零](https://cattle.w3fun.com/solution/easy/0283-move-zeroes.html)
 - [0414 第三大的数](https://cattle.w3fun.com/solution/easy/0414-third-maximum-number.html)
-- [0448 找到所有数组中消失的数字](https://cattle.w3fun.com/solution/easy/0448-find-all-numbers-disappeared-in-an-array.html)  :star:
+- [0448 找到所有数组中消失的数字](https://cattle.w3fun.com/solution/easy/0448-find-all-numbers-disappeared-in-an-array.html) :star:
 - [0485 最大连续 1 的个数](https://cattle.w3fun.com/solution/easy/0485-max-consecutive-ones.html)
 - [0509 斐波那契数](https://cattle.w3fun.com/solution/easy/0509-fibonacci-number.html)
 - [0532 数组中的 K-diff 数对](https://cattle.w3fun.com/solution/easy/0532-k-diff-pairs-in-an-array.html)
 - [0561 数组拆分 I](https://cattle.w3fun.com/solution/easy/0561-array-partition-i.html)
 - [0566 重塑矩阵](https://cattle.w3fun.com/solution/easy/0566-reshape-the-matrix.html)
-- [0581 最短无序连续子数组](https://cattle.w3fun.com/solution/easy/0581-shortest-unsorted-continuous-subarray.html)  :star:
+- [0581 最短无序连续子数组](https://cattle.w3fun.com/solution/easy/0581-shortest-unsorted-continuous-subarray.html) :star:
 - [0605 种花问题](https://cattle.w3fun.com/solution/easy/0605-can-place-flowers.html)
 - [0628 三个数的最大乘积](https://cattle.w3fun.com/solution/easy/0628-maximum-product-of-three-numbers.html)
 - [0643 子数组最大平均数 I](https://cattle.w3fun.com/solution/easy/0643-maximum-average-subarray-i.html)
@@ -108,7 +108,6 @@ Python：2
 - [1013 将数组分成和相等的三个部分](https://cattle.w3fun.com/solution/easy/1013-partition-array-into-these-parts-with-equal-sum.html)
 - [1018 可被 5 整除的二进制前缀](https://cattle.w3fun.com/solution/easy/1018-binary-prefix-divisible-by-5.html)
 
-
 ### 字符串
 
 - [0003 无重复字符的最长子字符串](https://cattle.w3fun.com/solution/medium/0003-longest-substring-without-repeating-characters.html)
@@ -119,7 +118,6 @@ Python：2
 - [0012 整数转罗马数字](https://cattle.w3fun.com/solution/medium/0012-integer-to-roman.html)
 - [0013 罗马数字转整数](https://cattle.w3fun.com/solution/easy/0013-roman-to-integer.html)
 
-
 ### 贪心算法
 
 - [0122 买卖股票的最佳时机 II](https://cattle.w3fun.com/solution/easy/0122-best-time-to-buy-and-sell-stock-ii.html)
@@ -129,9 +127,6 @@ Python：2
 - [0874 模拟机器人行走](https://cattle.w3fun.com/solution/easy/0874-walking-robot-simulation.html)
 - [0944 删列造序](https://cattle.w3fun.com/solution/easy/0944-delete-columns-to-make-sorted.html)
 - [0984 不含 AAA 或 BBB 的字符串](https://cattle.w3fun.com/solution/easy/0984-string-without-aaa-or-bbb.html)
-
-
-
 
 :bell: 关注微信公众号 W3Fun，不错过每一次更新～
 
