@@ -42,16 +42,17 @@ module.exports = {
     nav: [
       { text: '从这里开始', link: '/art/' },
       { text: '周计划', link: '/week/' },
-      {
-        text: '题库',
-        items: [
-          { text: '精选', link: '/solution/top/' },
-          { text: '简单', link: '/solution/easy/' },
-          { text: '中等', link: '/solution/medium/' },
-          { text: '困难', link: '/solution/difficult/' },
-        ],
-      },
-      { text: 'Lodash', link: '/lodash/' },
+      // {
+      //   text: '题库',
+      //   items: [
+      //     { text: '精选', link: '/solution/top/' },
+      //     // { text: '简单', link: '/solution/easy/' },
+      //     // { text: '中等', link: '/solution/medium/' },
+      //     // { text: '困难', link: '/solution/difficult/' },
+      //   ],
+      // },
+      { text: '精选题解', link: '/top/' },
+      // { text: 'Lodash', link: '/lodash/' },
       { text: '关于', link: '/about/' },
     ],
     sidebarDepth: 3,
