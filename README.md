@@ -1,6 +1,5 @@
 # Cattle
 
-
 :new: 网页版 [https://cattle.w3fun.com](https://cattle.w3fun.com)
 
 > （前端向）数据结构 + 算法 + LeetCode（JavaScript & C++ & Python）
@@ -9,32 +8,46 @@
 
 :train: :train: :train: :cow: :cow: :cow: :runner: :runner: :runner:
 
-
 ## 题目统计
 
-JavaScript：206
+JavaScript：219
 
-C++：67
+C++：73
 
-Python：2
+Python：3
 
-统计时间：2019-10-01 22:44:52
+统计时间：2019-11-29 10:53:03
+
+## Top 精选
+
+| 文章索引 | 链接                                                         |
+| -------- | ------------------------------------------------------------ |
+| #000000  | [0039、0040 组合总和](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485237&idx=1&sn=1a6d9050968a8ca1b86d218a560ace04&chksm=e8f8712cdf8ff83a0a13405b6c3e16f579c5df627a806214b8344bda1276368ad16c9fa9e1cc&token=201750241&lang=zh_CN#rd) |
+| #000033  | [0001、0167、0653 两数之和](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485270&idx=1&sn=5deb7fe9deadfb1955ba0c717ca70bb3&chksm=e8f8714fdf8ff859bbc025152135579e1e0f40ee5cd301d965c2daba7924a13708378de59098&token=201750241&lang=zh_CN#rd) |
+| #000066  | [0043、0415 字符串相乘与相加](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485295&idx=1&sn=7ecd848429856ebad924f7d99b72b910&chksm=e8f87176df8ff86055b029b64d075fefce124b0772cda1a865e7d19794e7ac149ce7d10cdcac&token=201750241&lang=zh_CN#rd) |
+| #000099  | [0349、0350 两个数组的交集](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485318&idx=1&sn=ea24e23dba30b6e55e93578348839368&chksm=e8f8719fdf8ff88989039bf5dd0cbf558cdee6d36d0bd94ededf17f2b06e61a570edc8329ff2&token=201750241&lang=zh_CN#rd) |
+| #0000CC  | [0094、0144、0145 二叉树的前中后序遍历](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485340&idx=1&sn=2b5d97d4101b357d3e02f2cbcd22d485&chksm=e8f87185df8ff893b7bbf3a57ebb7db6f4547b7ddbdc5edb898d1d008d8ced17baa069fe4882&token=201750241&lang=zh_CN#rd) |
 
 
-## 精彩一览
 
-### Top 精选
+## 周计划
 
-[0039 组合总数](https://github.com/swpuLeo/cattle/blob/master/src/medium/0039-combination-sum.js)
+**最新** :airplane:
 
-![0039-1](https://github.com/swpuLeo/cattle/blob/master/img/0039-1.png)
-
-
-### 周计划
+- [0024 两两交换链表中的节点](https://github.com/swpuLeo/cattle/blob/master/src/medium/0024-swap-nodes-in-pairs.js)
+- [0029 两数相除](https://github.com/swpuLeo/cattle/blob/master/src/medium/0029-divide-two-integers.py)
+- [0031 下一个排列](https://github.com/swpuLeo/cattle/blob/master/src/medium/0031-next-permutation.js)
+- [0033 搜索旋转排序树组](https://github.com/swpuLeo/cattle/blob/master/src/medium/0033-search-in-rotated-sorted-array.js)
+- [0002 两数相加](https://github.com/swpuLeo/cattle/blob/master/src/medium/0002-add-two-numbers.js)
+- [0019 删除链表的倒数第 N 个节点](https://github.com/swpuLeo/cattle/blob/master/src/medium/0019-remove-nth-node-from-end-of-list.js)
+- [0204 计数质数](https://github.com/swpuLeo/cattle/blob/master/src/easy/0204-count-primes.js)
+- [0237 删除链表中的节点](https://github.com/swpuLeo/cattle/blob/master/src/easy/0237-delete-node-in-a-linked-list.js)
 
 **2019** :airplane:
 
-10 月：[第 18 周](https://cattle.w3fun.com/week/18.html) | [第 19 周](https://cattle.w3fun.com/week/19.html) | [第 20 周](https://cattle.w3fun.com/week/20.html)
+11 月：[第 22 周](https://cattle.w3fun.com/week/22.html) | [第 23 周](https://cattle.w3fun.com/week/23.html) | [第 24 周](https://cattle.w3fun.com/week/24.html) | [第 25 周](https://cattle.w3fun.com/week/25.html) | [第 26 周](https://cattle.w3fun.com/week/26.html)
+
+10 月：[第 18 周](https://cattle.w3fun.com/week/18.html) | [第 19 周](https://cattle.w3fun.com/week/19.html) | [第 20 周](https://cattle.w3fun.com/week/20.html) | [第 21 周](https://cattle.w3fun.com/week/21.html)
 
 9 月：[第 14 周](https://cattle.w3fun.com/week/14.html) | [第 15 周](https://cattle.w3fun.com/week/15.html) | [第 16 周](https://cattle.w3fun.com/week/16.html) | [第 17 周](https://cattle.w3fun.com/week/17.html)
 
@@ -42,96 +55,147 @@ Python：2
 
 7 月：[第 5 周](https://cattle.w3fun.com/week/5.html) | [第 6 周](https://cattle.w3fun.com/week/6.html) | [第 7 周](https://cattle.w3fun.com/week/7.html) | [第 8 周](https://cattle.w3fun.com/week/8.html)
 
+7 月前: [第 1 周](https://cattle.w3fun.com/week/1.html) | [第 2 周](https://cattle.w3fun.com/week/2.html) | [第 3 周](https://cattle.w3fun.com/week/3.html) | [第 4 周](https://cattle.w3fun.com/week/4.html)
+
+## 分类
+
 ### 数组
 
-- [0001 两数之和](https://cattle.w3fun.com/solution/easy/0001-two-sum.html) :star:
-- [0011 盛最多水的容器](https://cattle.w3fun.com/solution/medium/0011-container-with-most-water.html)
-- [0015 三数之和](https://cattle.w3fun.com/solution/medium/0015-3sum.html)
-- [0016 最接近的三数之和](https://cattle.w3fun.com/solution/medium/0016-3sum-closest.html)
-- [0018 四数之和](https://cattle.w3fun.com/solution/medium/0018-4sum.html)
-- [0026 删除排序数组中的重复项](https://cattle.w3fun.com/solution/easy/0026-remove-duplicates-from-sorted-array.html)
-- [0027 移除元素](https://cattle.w3fun.com/solution/easy/0027-remove-element.html)
-- [0035 搜索插入位置](https://cattle.w3fun.com/solution/easy/0035-search-insert-position.html)
-- [0048 旋转图像](https://cattle.w3fun.com/solution/medium/0048-rotate-image.html)
-- [0053 最大子序和](https://cattle.w3fun.com/solution/easy/0053-maximum-subarray.html)
-- [0066 加一](https://cattle.w3fun.com/solution/easy/0066-plus-one.html)
-- [0073 矩阵置零](https://cattle.w3fun.com/solution/easy/0073-set-matrix-zeroes.html)
-- [0088 合并两个有序数组](https://cattle.w3fun.com/solution/easy/0088-merge-sorted-array.html)
-- [0118 杨辉三角](https://cattle.w3fun.com/solution/easy/0118-pascals-triangle.html)
-- [0119 杨辉三角 II](https://cattle.w3fun.com/solution/easy/0119-pascals-triangle-ii.html)
-- [0121 买卖股票的最佳时机](https://cattle.w3fun.com/solution/easy/0121-best-time-to-buy-and-sell-stock.html)
-- [0122 买卖股票的最佳时机 II](https://cattle.w3fun.com/solution/easy/0122-best-time-to-buy-and-sell-stock-ii.html)
-- [0167 两数之和 II - 输入有序数组](https://cattle.w3fun.com/solution/easy/0167-two-sum-ii-input-array-is-sorted.html)
-- [0169 求众数](https://cattle.w3fun.com/solution/easy/0169-majority-element.html)
-- [0189 旋转数组](https://cattle.w3fun.com/solution/easy/0189-rotate-array.html)
-- [0217 存在重复元素](https://cattle.w3fun.com/solution/easy/0217-contains-duplicate.html)
-- [0219 存在重复元素 II](https://cattle.w3fun.com/solution/easy/0219-contains-duplicate-ii.html)
-- [0268 缺失数字](https://cattle.w3fun.com/solution/easy/0268-missing-number.html)
-- [0283 移动零](https://cattle.w3fun.com/solution/easy/0283-move-zeroes.html)
-- [0414 第三大的数](https://cattle.w3fun.com/solution/easy/0414-third-maximum-number.html)
-- [0448 找到所有数组中消失的数字](https://cattle.w3fun.com/solution/easy/0448-find-all-numbers-disappeared-in-an-array.html)  :star:
-- [0485 最大连续 1 的个数](https://cattle.w3fun.com/solution/easy/0485-max-consecutive-ones.html)
-- [0509 斐波那契数](https://cattle.w3fun.com/solution/easy/0509-fibonacci-number.html)
-- [0532 数组中的 K-diff 数对](https://cattle.w3fun.com/solution/easy/0532-k-diff-pairs-in-an-array.html)
-- [0561 数组拆分 I](https://cattle.w3fun.com/solution/easy/0561-array-partition-i.html)
-- [0566 重塑矩阵](https://cattle.w3fun.com/solution/easy/0566-reshape-the-matrix.html)
-- [0581 最短无序连续子数组](https://cattle.w3fun.com/solution/easy/0581-shortest-unsorted-continuous-subarray.html)  :star:
-- [0605 种花问题](https://cattle.w3fun.com/solution/easy/0605-can-place-flowers.html)
-- [0628 三个数的最大乘积](https://cattle.w3fun.com/solution/easy/0628-maximum-product-of-three-numbers.html)
-- [0643 子数组最大平均数 I](https://cattle.w3fun.com/solution/easy/0643-maximum-average-subarray-i.html)
-- [0661 图片平滑器](https://cattle.w3fun.com/solution/easy/0661-image-smoother.html)
-- [0665 非递减数列](https://cattle.w3fun.com/solution/easy/0665-non-descreasing-array.html)
-- [0674 最长连续递增序列](https://cattle.w3fun.com/solution/easy/0674-longest-continuous-increasing-subsequence.html)
-- [0697 数组的度](https://cattle.w3fun.com/solution/easy/0697-degree-of-an-array.html)
-- [0717 1 比特与 2 比特字符](https://cattle.w3fun.com/solution/easy/0717-1-bit-and-2-bit-characters.html)
-- [0724 寻找数组的中心索引](https://cattle.w3fun.com/solution/easy/0724-find-pivot-index.html)
-- [0746 使用最小花费爬楼梯](https://cattle.w3fun.com/solution/easy/0746-min-cost-climbing-stairs.html)
-- [0747 至少是其他数字两倍的最大数](https://cattle.w3fun.com/solution/easy/0747-largest-number-at-least-twice-of-others.html)
-- [0766 托普利茨矩阵](https://cattle.w3fun.com/solution/easy/0766-toeplitz-matrix.html)
-- [0830 较大分组的位置](https://cattle.w3fun.com/solution/easy/0830-positions-of-large-groups.html)
-- [0832 翻转图像](https://cattle.w3fun.com/solution/easy/0832-flipping-an-image.html)
-- [0840 矩阵中的幻方](https://cattle.w3fun.com/solution/easy/0840-magic-squares-in-grid.html)
-- [0849 到最近的人的最大距离](https://cattle.w3fun.com/solution/easy/0849-maximize-distance-to-closest-person.html)
-- [0867 转置矩阵](https://cattle.w3fun.com/solution/easy/0867-transpose-matrix.html)
-- [0888 公平的糖果交换](https://cattle.w3fun.com/solution/easy/0888-fair-candy-swap.html)
-- [0896 单调数列](https://cattle.w3fun.com/solution/easy/0896-monotonic-array.html)
-- [0905 按奇偶排序数组](https://cattle.w3fun.com/solution/easy/0905-sort-array-by-parity.html)
-- [0914 卡牌分组](https://cattle.w3fun.com/solution/easy/0914-x-of-a-kind-in-a-deck-of-cards.html)
-- [0922 按奇偶排序数组 II](https://cattle.w3fun.com/solution/easy/0922-sort-array-by-parity-ii.html)
-- [0941 有效的山脉数组](https://cattle.w3fun.com/solution/easy/0941-valid-mountain-array.html)
-- [0977 有序数组的平方](solution/easy/0977-squares-of-a-sorted-array.html)
-- [0985 查询后的偶数和](https://cattle.w3fun.com/solution/easy/0985-sum-of-even-numbers-after-queries.html)
-- [0989 数组形式的整数加法](https://cattle.w3fun.com/solution/easy/0989-add-to-array-form-of-integer.html)
-- [0999 车的可用捕获量](https://cattle.w3fun.com/solution/easy/0999-avaliable-captures-for-rook.html)
-- [1002 查找常用字符](https://cattle.w3fun.com/solution/easy/1002-find-common-characters.html)
-- [1010 总持续时间可被 60 整除的歌曲](https://cattle.w3fun.com/solution/easy/1010-pairs-of-songs-with-total-durations-divisible-by-60.html)
-- [1013 将数组分成和相等的三个部分](https://cattle.w3fun.com/solution/easy/1013-partition-array-into-these-parts-with-equal-sum.html)
-- [1018 可被 5 整除的二进制前缀](https://cattle.w3fun.com/solution/easy/1018-binary-prefix-divisible-by-5.html)
-
+- [0001 两数之和](https://github.com/swpuLeo/cattle/blob/master/src/easy/0001-two-sum.js)
+- [0011 盛最多水的容器](https://github.com/swpuLeo/cattle/blob/master/src/medium/0011-container-with-most-water.js)
+- [0015 三数之和](https://github.com/swpuLeo/cattle/blob/master/src/medium/0015-3sum.js)
+- [0016 最接近的三数之和](https://github.com/swpuLeo/cattle/blob/master/src/medium/0016-3sum-closest.js)
+- [0018 四数之和](https://github.com/swpuLeo/cattle/blob/master/src/medium/0018-4sum.js)
+- [0026 删除排序数组中的重复项](https://github.com/swpuLeo/cattle/blob/master/src/easy/0026-remove-duplicates-from-sorted-array.js)
+- [0027 移除元素](https://github.com/swpuLeo/cattle/blob/master/src/easy/0027-remove-element.js)
+- [0031 下一个排列](https://github.com/swpuLeo/cattle/blob/master/src/medium/0031-next-permutation.js)
+- [0033 搜索旋转排序数组](https://github.com/swpuLeo/cattle/blob/master/src/medium/0033-search-in-rotated-sorted-array.js)
+- [0035 搜索插入位置](https://github.com/swpuLeo/cattle/blob/master/src/easy/0035-search-insert-position.js)
 
 ### 字符串
 
-- [0003 无重复字符的最长子字符串](https://cattle.w3fun.com/solution/medium/0003-longest-substring-without-repeating-characters.html)
-- [0005 最长回文字串](https://cattle.w3fun.com/solution/medium//solution/medium/0005-longest-palindromic-substring.html)
-- [0006 Z 字形变换](https://cattle.w3fun.com/solution/medium//solution/medium/0006-zigzag-conversion.html)
-- [0008 字符串转整数（atoi）](https://cattle.w3fun.com/solution/medium/solution/medium/0008-string-to-integer-atoi.html)
-- [0010 正则表达式匹配](https://cattle.w3fun.com/solution/difficult/0010-regular-expression-matching.html)
-- [0012 整数转罗马数字](https://cattle.w3fun.com/solution/medium/0012-integer-to-roman.html)
-- [0013 罗马数字转整数](https://cattle.w3fun.com/solution/easy/0013-roman-to-integer.html)
+- [0003 无重复字符的最长子串](https://github.com/swpuLeo/cattle/blob/master/src/medium/0003-longest-substring-without-repeating-characters.js)
+- [0005 最长回文子串](https://github.com/swpuLeo/cattle/blob/master/src/medium/0005-longest-palindromic-substring.js)
+- [0006 Z 字形变换](https://github.com/swpuLeo/cattle/blob/master/src/medium/0006-zigzag-conversion.js)
+- [0008 字符串转换整数 (atoi)](https://github.com/swpuLeo/cattle/blob/master/src/medium/0008-string-to-integer-atoi.js)
+- [0010 正则表达式匹配](https://github.com/swpuLeo/cattle/blob/master/src/difficult/0010-regular-expression-matching.js)
+- [0012 整数转罗马数字](https://github.com/swpuLeo/cattle/blob/master/src/medium/0012-integer-to-roman.js)
+- [0013 罗马数字转整数](https://github.com/swpuLeo/cattle/blob/master/src/easy/0013-roman-to-integer.js)
+- [0014 最长公共前缀](https://github.com/swpuLeo/cattle/blob/master/src/easy/0014-longest-common-prefix.js)
+- [0017 电话号码的字母组合](https://github.com/swpuLeo/cattle/blob/master/src/medium/0017-letter-combinations-of-a-phone-number.js)
+- [0020 有效的括号](https://github.com/swpuLeo/cattle/blob/master/src/easy/0020-valid-parentheses.js)
 
+### 栈
+
+- [0020 有效的括号](https://github.com/swpuLeo/cattle/blob/master/src/easy/0020-valid-parentheses.js)
+- [0094 二叉树的中序遍历](https://github.com/swpuLeo/cattle/blob/master/src/medium/0094-binary-tree-inorder-traversal.js)
+- [0144 二叉树的前序遍历](https://github.com/swpuLeo/cattle/blob/master/src/medium/0144-binary-tree-preorder-traversal.js)
+- [0145 二叉树的后序遍历](https://github.com/swpuLeo/cattle/blob/master/src/difficult/0145-binary-tree-postorder-traversal.js)
+- [0155 最小栈](https://github.com/swpuLeo/cattle/blob/master/src/easy/0155-min-stack.js)
+- [0225 用队列实现栈](https://github.com/swpuLeo/cattle/blob/master/src/easy/0225-implement-stack-using-queues.js)
+- [0232 用栈实现队列](https://github.com/swpuLeo/cattle/blob/master/src/easy/0232-implement-queue-using-stacks.js)
+- [0496 下一个更大元素 I](https://github.com/swpuLeo/cattle/blob/master/src/easy/0496-next-greater-element-i.js)
+- [0682 棒球比赛](https://github.com/swpuLeo/cattle/blob/master/src/easy/0682-baseball-game.js)
+- [0844 比较含退格的字符串](https://github.com/swpuLeo/cattle/blob/master/src/easy/0844-backspace-string-compare.js)
+
+### 链表
+
+- [0002 两数相加](https://github.com/swpuLeo/cattle/blob/master/src/medium/0002-add-two-numbers.js)
+- [0019 删除链表的倒数第 N 个节点](https://github.com/swpuLeo/cattle/blob/master/src/medium/0019-remove-nth-node-from-end-of-list.js)
+- [0021 合并两个有序链表](https://github.com/swpuLeo/cattle/blob/master/src/easy/0021-merge-two-sorted-lists.js)
+- [0024 两两交换链表中的节点](https://github.com/swpuLeo/cattle/blob/master/src/medium/0024-swap-nodes-in-pairs.js)
+- [0083 删除排序链表中的重复元素](https://github.com/swpuLeo/cattle/blob/master/src/easy/0083-remove-duplicates-from-sorted-list.js)
+- [0141 环形链表](https://github.com/swpuLeo/cattle/blob/master/src/easy/0141-linked-list-cycle.js)
+- [0160 相交链表](https://github.com/swpuLeo/cattle/blob/master/src/easy/0160-intersection-of-two-linked-lists.js)
+- [0203 移除链表元素](https://github.com/swpuLeo/cattle/blob/master/src/easy/0203-remove-linked-list-elements.js)
+- [0206 反转链表](https://github.com/swpuLeo/cattle/blob/master/src/easy/0206-reverse-linked-list.js)
+- [0234 回文链表](https://github.com/swpuLeo/cattle/blob/master/src/easy/0234-palindrome-linked-list.js)
+
+### 哈希表
+
+- [0001 两数之和](https://github.com/swpuLeo/cattle/blob/master/src/easy/0001-two-sum.js)
+- [0003 无重复字符的最长子串](https://github.com/swpuLeo/cattle/blob/master/src/medium/0003-longest-substring-without-repeating-characters.js)
+- [0018 四数之和](https://github.com/swpuLeo/cattle/blob/master/src/medium/0018-4sum.js)
+- [0049 字母异位词分组](https://github.com/swpuLeo/cattle/blob/master/src/medium/0049-group-anagrams.js)
+- [0094 二叉树的中序遍历](https://github.com/swpuLeo/cattle/blob/master/src/medium/0094-binary-tree-inorder-traversal.js)
+- [0136 只出现一次的数字](https://github.com/swpuLeo/cattle/blob/master/src/easy/0136-single-number.js)
+- [0202 快乐数](https://github.com/swpuLeo/cattle/blob/master/src/easy/0202-happy-number.js)
+- [0204 计数质数](https://github.com/swpuLeo/cattle/blob/master/src/easy/0204-count-primes.js)
+- [0205 同构字符串](https://github.com/swpuLeo/cattle/blob/master/src/easy/0205-isomorphic-strings.js)
+- [0217 存在重复元素](https://github.com/swpuLeo/cattle/blob/master/src/easy/0217-contains-duplicate.js)
+
+### 树
+
+- [0094 二叉树的中序遍历](https://github.com/swpuLeo/cattle/blob/master/src/medium/0094-binary-tree-inorder-traversal.js)
+- [0098 验证二叉搜索树](https://github.com/swpuLeo/cattle/blob/master/src/medium/0098-validate-binary-search-tree.js)
+- [0100 相同的树](https://github.com/swpuLeo/cattle/blob/master/src/easy/0100-same-tree.js)
+- [0101 对称二叉树](https://github.com/swpuLeo/cattle/blob/master/src/easy/0101-symmetric-tree.js)
+- [0102 二叉树的层次遍历](https://github.com/swpuLeo/cattle/blob/master/src/medium/0102-binary-tree-level-order-traversal.js)
+- [0104 二叉树的最大深度](https://github.com/swpuLeo/cattle/blob/master/src/easy/0104-maximum-depth-of-binary-tree.js)
+- [0107 二叉树的层次遍历 II](https://github.com/swpuLeo/cattle/blob/master/src/easy/0107-binary-tree-level-order-traversal-ii.js)
+- [0108 将有序数组转换为二叉搜索树](https://github.com/swpuLeo/cattle/blob/master/src/easy/0108-conver-sorted-array-to-binary-search-tree.js)
+- [0110 平衡二叉树](https://github.com/swpuLeo/cattle/blob/master/src/easy/0110-balanced-binary-tree.js)
+- [0111 二叉树的最小深度](https://github.com/swpuLeo/cattle/blob/master/src/easy/0111-minimum-depth-of-binary-tree.js)
 
 ### 贪心算法
 
-- [0122 买卖股票的最佳时机 II](https://cattle.w3fun.com/solution/easy/0122-best-time-to-buy-and-sell-stock-ii.html)
-- [0392 判断子序列](https://cattle.w3fun.com/solution/easy/0392-is-subsequence.html)
-- [0455 分发饼干](https://cattle.w3fun.com/solution/easy/0455-assign-cookies.html)
-- [0860 柠檬水找零](https://cattle.w3fun.com/solution/easy/0860-lemonade-change.html)
-- [0874 模拟机器人行走](https://cattle.w3fun.com/solution/easy/0874-walking-robot-simulation.html)
-- [0944 删列造序](https://cattle.w3fun.com/solution/easy/0944-delete-columns-to-make-sorted.html)
-- [0984 不含 AAA 或 BBB 的字符串](https://cattle.w3fun.com/solution/easy/0984-string-without-aaa-or-bbb.html)
+- [0122 买卖股票的最佳时机 II](https://github.com/swpuLeo/cattle/blob/master/src/easy/0122-best-time-to-buy-and-sell-stock-ii.js)
+- [0392 判断子序列](https://github.com/swpuLeo/cattle/blob/master/src/easy/0392-is-subsequence.js)
+- [0455 分发饼干](https://github.com/swpuLeo/cattle/blob/master/src/easy/0455-assign-cookies.js)
+- [0860 柠檬水找零](https://github.com/swpuLeo/cattle/blob/master/src/easy/0860-lemonade-change.js)
+- [0874 模拟行走机器人](https://github.com/swpuLeo/cattle/blob/master/src/easy/0874-walking-robot-simulation.js)
+- [0944 删列造序](https://github.com/swpuLeo/cattle/blob/master/src/easy/0944-delete-columns-to-make-sorted.js)
+- [0984 不含 AAA 或 BBB 的字符串](https://github.com/swpuLeo/cattle/blob/master/src/easy/0984-string-without-aaa-or-bbb.js)
 
+### 回溯算法
 
+- [0010 正则表达式匹配](https://github.com/swpuLeo/cattle/blob/master/src/difficult/0010-regular-expression-matching.js)
+- [0017 电话号码的字母组合](https://github.com/swpuLeo/cattle/blob/master/src/medium/0017-letter-combinations-of-a-phone-number.js)
+- [0022 括号生成](https://github.com/swpuLeo/cattle/blob/master/src/medium/0022-generate-parentheses.js)
+- [0039 组合总和](https://github.com/swpuLeo/cattle/blob/master/src/medium/0039-combination-sum.js)
+- [0040 组合总和 II](https://github.com/swpuLeo/cattle/blob/master/src/medium/0040-combination-sum-ii.js)
+- [0401 二进制手表](https://github.com/swpuLeo/cattle/blob/master/src/easy/0401-binary-watch.js)
 
+### 动态规划
+
+- [0005 最长回文子串](https://github.com/swpuLeo/cattle/blob/master/src/medium/0005-longest-palindromic-substring.js)
+- [0010 正则表达式匹配](https://github.com/swpuLeo/cattle/blob/master/src/difficult/0010-regular-expression-matching.js)
+- [0053 最大子序和](https://github.com/swpuLeo/cattle/blob/master/src/easy/0053-maximum-subarray.js)
+- [0070 爬楼梯](https://github.com/swpuLeo/cattle/blob/master/src/easy/0070-climbing-stairs.js)
+- [0121 买卖股票的最佳时机](https://github.com/swpuLeo/cattle/blob/master/src/easy/0121-best-time-to-buy-and-sell-stock.js)
+- [0198 打家劫舍](https://github.com/swpuLeo/cattle/blob/master/src/easy/0198-house-robber.js)
+- [0303 区域和检索 - 数组不可变](https://github.com/swpuLeo/cattle/blob/master/src/easy/0303-range-sum-query-immutable.js)
+- [0392 判断子序列](https://github.com/swpuLeo/cattle/blob/master/src/easy/0392-is-subsequence.js)
+- [0746 使用最小花费爬楼梯](https://github.com/swpuLeo/cattle/blob/master/src/easy/0746-min-cost-climbing-stairs.js)
+
+### 二分查找
+
+- [0029 两数相除](https://github.com/swpuLeo/cattle/blob/master/src/medium/0029-divide-two-integers.py)
+- [0033 搜索旋转排序数组](https://github.com/swpuLeo/cattle/blob/master/src/medium/0033-search-in-rotated-sorted-array.js)
+- [0035 索插入位置](https://github.com/swpuLeo/cattle/blob/master/src/easy/0035-search-insert-position.js)
+- [0069 x 的平方根](https://github.com/swpuLeo/cattle/blob/master/src/easy/0069-sqrtx.js)
+- [0167 两数之和 II - 输入有序数组](https://github.com/swpuLeo/cattle/blob/master/src/easy/0167-two-sum-ii-input-array-is-sorted.js)
+- [0278 第一个错误的版本](https://github.com/swpuLeo/cattle/blob/master/src/easy/0278-first-bad-version.js)
+- [0349 两个数组的交集](https://github.com/swpuLeo/cattle/blob/master/src/easy/0349-intersection-of-two-arrays.js)
+- [0350 两个数组的交集 II](https://github.com/swpuLeo/cattle/blob/master/src/easy/0350-intersection-of-two-arrays-ii.js)
+- [0367 有效的完全平方数](https://github.com/swpuLeo/cattle/blob/master/src/easy/0367-valid-perfect-square.js)
+- [0374 猜数字大小](https://github.com/swpuLeo/cattle/blob/master/src/easy/0374-guess-number-higher-or-lower.py)
+
+### 双指针
+
+- [0003 无重复字符的最长子串](https://github.com/swpuLeo/cattle/blob/master/src/medium/0003-longest-substring-without-repeating-characters.js)
+- [0011 盛最多水的容器](https://github.com/swpuLeo/cattle/blob/master/src/medium/0011-container-with-most-water.js)
+- [0015 三数之和](https://github.com/swpuLeo/cattle/blob/master/src/medium/0015-3sum.js)
+- [0016 最接近的三数之和](https://github.com/swpuLeo/cattle/blob/master/src/medium/0016-3sum-closest.js)
+- [0018 四数之和](https://github.com/swpuLeo/cattle/blob/master/src/medium/0018-4sum.js)
+- [0019 删除链表的倒数第 N 个节点](https://github.com/swpuLeo/cattle/blob/master/src/medium/0019-remove-nth-node-from-end-of-list.js)
+- [0026 删除排序数组中的重复项](https://github.com/swpuLeo/cattle/blob/master/src/easy/0026-remove-duplicates-from-sorted-array.js)
+- [0027 移除元素](https://github.com/swpuLeo/cattle/blob/master/src/easy/0027-remove-element.js)
+- [0028 实现 strStr()](https://github.com/swpuLeo/cattle/blob/master/src/easy/0028-implement-strstr.js)
+- [0088 合并两个有序数组](https://github.com/swpuLeo/cattle/blob/master/src/easy/0088-merge-sorted-array.js)
+- [0125 验证回文串](https://github.com/swpuLeo/cattle/blob/master/src/easy/0125-valid-palindrome.js)
+
+## 关注
 
 :bell: 关注微信公众号 W3Fun，不错过每一次更新～
 
