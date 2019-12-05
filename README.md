@@ -10,40 +10,40 @@
 
 ## 题目统计
 
-JavaScript：219
+JavaScript：223
 
 C++：73
 
 Python：3
 
-统计时间：2019-11-29 10:53:03
+统计时间：2019-12-05 21:11:52
 
 ## Top 精选
 
-| 文章索引 | 链接                                                         |
-| -------- | ------------------------------------------------------------ |
-| #000000  | [0039、0040 组合总和](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485237&idx=1&sn=1a6d9050968a8ca1b86d218a560ace04&chksm=e8f8712cdf8ff83a0a13405b6c3e16f579c5df627a806214b8344bda1276368ad16c9fa9e1cc&token=201750241&lang=zh_CN#rd) |
-| #000033  | [0001、0167、0653 两数之和](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485270&idx=1&sn=5deb7fe9deadfb1955ba0c717ca70bb3&chksm=e8f8714fdf8ff859bbc025152135579e1e0f40ee5cd301d965c2daba7924a13708378de59098&token=201750241&lang=zh_CN#rd) |
-| #000066  | [0043、0415 字符串相乘与相加](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485295&idx=1&sn=7ecd848429856ebad924f7d99b72b910&chksm=e8f87176df8ff86055b029b64d075fefce124b0772cda1a865e7d19794e7ac149ce7d10cdcac&token=201750241&lang=zh_CN#rd) |
-| #000099  | [0349、0350 两个数组的交集](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485318&idx=1&sn=ea24e23dba30b6e55e93578348839368&chksm=e8f8719fdf8ff88989039bf5dd0cbf558cdee6d36d0bd94ededf17f2b06e61a570edc8329ff2&token=201750241&lang=zh_CN#rd) |
+| 文章索引 | 链接                                                                                                                                                                                                                                                                 |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| #000000  | [0039、0040 组合总和](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485237&idx=1&sn=1a6d9050968a8ca1b86d218a560ace04&chksm=e8f8712cdf8ff83a0a13405b6c3e16f579c5df627a806214b8344bda1276368ad16c9fa9e1cc&token=201750241&lang=zh_CN#rd)                   |
+| #000033  | [0001、0167、0653 两数之和](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485270&idx=1&sn=5deb7fe9deadfb1955ba0c717ca70bb3&chksm=e8f8714fdf8ff859bbc025152135579e1e0f40ee5cd301d965c2daba7924a13708378de59098&token=201750241&lang=zh_CN#rd)             |
+| #000066  | [0043、0415 字符串相乘与相加](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485295&idx=1&sn=7ecd848429856ebad924f7d99b72b910&chksm=e8f87176df8ff86055b029b64d075fefce124b0772cda1a865e7d19794e7ac149ce7d10cdcac&token=201750241&lang=zh_CN#rd)           |
+| #000099  | [0349、0350 两个数组的交集](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485318&idx=1&sn=ea24e23dba30b6e55e93578348839368&chksm=e8f8719fdf8ff88989039bf5dd0cbf558cdee6d36d0bd94ededf17f2b06e61a570edc8329ff2&token=201750241&lang=zh_CN#rd)             |
 | #0000CC  | [0094、0144、0145 二叉树的前中后序遍历](https://mp.weixin.qq.com/s?__biz=MzIzNDI1MTEyNg==&mid=2247485340&idx=1&sn=2b5d97d4101b357d3e02f2cbcd22d485&chksm=e8f87185df8ff893b7bbf3a57ebb7db6f4547b7ddbdc5edb898d1d008d8ced17baa069fe4882&token=201750241&lang=zh_CN#rd) |
-
-
 
 ## 周计划
 
 **最新** :airplane:
 
+- [0047 全排列 II](https://github.com/swpuLeo/cattle/blob/master/src/medium/0047-permutations-ii.js)
+- [0046 全排列](https://github.com/swpuLeo/cattle/blob/master/src/medium/0046-permutations.js)
+- [0036 有效的数独](https://github.com/swpuLeo/cattle/blob/master/src/medium/0036-valid-sudoku.js)
+- [0034 在排序数组中查找元素的第一个和最后一个位置](https://github.com/swpuLeo/cattle/blob/master/src/medium/0034-find-first-and-last-position-of-element-in-sorted-array.js)
 - [0024 两两交换链表中的节点](https://github.com/swpuLeo/cattle/blob/master/src/medium/0024-swap-nodes-in-pairs.js)
 - [0029 两数相除](https://github.com/swpuLeo/cattle/blob/master/src/medium/0029-divide-two-integers.py)
 - [0031 下一个排列](https://github.com/swpuLeo/cattle/blob/master/src/medium/0031-next-permutation.js)
 - [0033 搜索旋转排序树组](https://github.com/swpuLeo/cattle/blob/master/src/medium/0033-search-in-rotated-sorted-array.js)
-- [0002 两数相加](https://github.com/swpuLeo/cattle/blob/master/src/medium/0002-add-two-numbers.js)
-- [0019 删除链表的倒数第 N 个节点](https://github.com/swpuLeo/cattle/blob/master/src/medium/0019-remove-nth-node-from-end-of-list.js)
-- [0204 计数质数](https://github.com/swpuLeo/cattle/blob/master/src/easy/0204-count-primes.js)
-- [0237 删除链表中的节点](https://github.com/swpuLeo/cattle/blob/master/src/easy/0237-delete-node-in-a-linked-list.js)
 
 **2019** :airplane:
+
+12 月：[第 27 周](https://cattle.w3fun.com/week/27.html)
 
 11 月：[第 22 周](https://cattle.w3fun.com/week/22.html) | [第 23 周](https://cattle.w3fun.com/week/23.html) | [第 24 周](https://cattle.w3fun.com/week/24.html) | [第 25 周](https://cattle.w3fun.com/week/25.html) | [第 26 周](https://cattle.w3fun.com/week/26.html)
 
