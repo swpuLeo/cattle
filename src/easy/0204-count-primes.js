@@ -20,29 +20,29 @@ var countPrimes = function(n) {
     }
   }
   return count
-};
+}
 
 /**
  * @param {number} n
  * @return {number}
  */
 var countPrimes = function(n) {
-  let arr = [];
+  let arr = []
   for (let i = 2; i < n; i++) {
-    arr[i] = i;
+    arr[i] = i
   }
   for (let i = 2; i <= Math.floor(Math.sqrt(n)); i++) {
     if (arr[i] !== 0) {
-      let j = i * i;
+      let j = i * i
       while (j < n) {
-        arr[j] = 0;
-        j += i;
+        arr[j] = 0
+        j += i
       }
     }
   }
-  let count = 0;
+  let count = 0
   arr.forEach(item => {
-    if (item && item !== 0) count += 1;
+    if (item && item !== 0) count += 1
   })
-  return count;
-};
+  return count
+}

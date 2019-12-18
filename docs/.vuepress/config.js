@@ -20,10 +20,6 @@ const weekChildren = getAllMdFile('docs/week')
 weekChildren.sort((a, b) => +b - +a)
 weekChildren.unshift('')
 
-// const artChildren = getAllMdFile('docs/art')
-// artChildren.sort()
-// artChildren.splice(0, 1, '')
-
 module.exports = {
   base: '/',
   title: 'Cattle',
@@ -37,17 +33,16 @@ module.exports = {
     nav: [
       { text: '从这里开始', link: '/art/' },
       { text: '周计划', link: '/week/' },
-      // { text: '文章', link: '/idea/' },
       {
         text: '题库',
         items: [
-          //{ text: '题目索引', link: '/solution/' },
           { text: '精选', link: '/solution/top/' },
           { text: '简单', link: '/solution/easy/' },
           { text: '中等', link: '/solution/medium/' },
           { text: '困难', link: '/solution/difficult/' }
         ]
       },
+      { text: 'Lodash', link: '/lodash/' },
       { text: '关于', link: '/about/' }
     ],
     sidebarDepth: 3,
