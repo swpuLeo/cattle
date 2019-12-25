@@ -9,6 +9,7 @@ docs/.vuepress/theme
 docs/.vuepress/utils
 docs/.vuepress/constants.js
 docs/.vuepress/pre-build.js
+docs/.vuepress/styles
 docs/.vuepress/style.styl
 docs/idea
 docs/plan
