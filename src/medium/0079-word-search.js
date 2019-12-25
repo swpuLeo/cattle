@@ -1,4 +1,11 @@
 /**
+ * https://leetcode-cn.com/problems/word-search/
+ * https://leetcode.com/problems/word-search/
+ */
+
+// 方案一：回溯算法
+
+/**
  * @param {character[][]} board
  * @param {string} word
  * @return {boolean}
@@ -12,7 +19,7 @@ var exist = function(board, word) {
   // ------ --------
   // const visited = Array(row).fill(Array(col).fill(false))
   // ------ --------
-  // 因为[ [], [] ] 中的数组索引一致
+  // 因为[ [], [] ] 中内层数组的索引一致
   for (let i = 0; i < row; i++) {
     visited[i] = Array(col)
     for (let j = 0; j < col; j++) {
@@ -27,7 +34,7 @@ var exist = function(board, word) {
     if (idx === word.length) return true
     // 否则
     // 如果越界、如果当前字符不匹配、如果已经访问过
-    // 三种情况都匹配失败
+    // 三种情况视为匹配失败
     if (
       i < 0 ||
       i >= row ||
