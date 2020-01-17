@@ -11,6 +11,8 @@ docs/.vuepress/constants.js
 docs/.vuepress/pre-build.js
 docs/.vuepress/styles
 docs/.vuepress/style.styl
+docs/.vuepress/public
+docs/.vuepress/templates
 docs/idea
 docs/plan
 docs/review
@@ -18,3 +20,9 @@ TODO.md
 chrome-mac
 carbon-config.json
 deploy.sh
+demo/
+src/easy/__*.*
+src/medium/__*.*
+build
+_docs
+img
