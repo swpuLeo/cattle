@@ -15,9 +15,3 @@
 按语言统计：JavaScript - 232，C++ - 79，Python - 3
 
 统计时间：2020/4/17 上午11:18:44
-
-## 关注
-
-:bell: 关注微信公众号 W3Fun，不错过每一次更新～
-
-![](https://github.com/swpuLeo/cattle/blob/master/img/qrcode_v3_sm.jpg)
